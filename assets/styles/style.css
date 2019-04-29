@@ -1,0 +1,267 @@
+@font-face {
+  font-family: Suisse;
+  src: url(suisse-medium.otf) format("opentype");
+  font-weight: medium;
+}
+
+
+body {
+	margin: 0;
+	background: darkgrey;
+}
+
+
+.gallery-item {
+	position: relative;
+	display: flex;
+	align-items: center;
+  	max-width: 33%;
+  	overflow: hidden;
+  	border-style: solid;
+  	border-width: 2px;
+  	border-color: white;
+
+
+}
+
+.gallery-item:hover #showcase-imgs{
+	opacity: 1;
+	filter: blur(0)
+
+}
+
+#gallery-container {
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+/*#gallery-container:after {
+  content: "";
+  display: table;
+  clear: both;
+  border
+}
+*/
+ #showcase-imgs {
+ 	height: 100%;
+ 	max-width: 33%
+    overflow: hidden;
+    filter: blur(3px);
+     /*-webkit-filter: blur(3px);*/
+     z-index: -1;
+     opacity: .7;
+     background: black;
+
+ }
+
+#gallery-item: hover {
+	background: white;
+}
+
+#title {
+	z-index: 1000;
+	/*background-color: pink;*/
+	font-family: Suisse;
+	/*font-weight: medium;*/
+	color: white;
+	font-size: 25px;
+	display: inline-block
+	text-align: center;
+	 position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+
+
+}
+
+#title:hover{
+	text-decoration: underline;
+}
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav #menu-items {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+a:hover {
+	text-decoration: underline;
+  }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span {
+	position: fixed;
+	background: black;
+	height: 100%;
+	width: 75px;
+}
+
+#plus-button {
+	position: absolute;
+	color: white;
+	height: 100%;
+	font-size: 50px;
+	left: 50%;
+	top: 100%;
+	transform: translate(-50%, -50%);
+}
+
+#main {
+max-height: 100%;
+position: relative;
+transition: margin-left .5s;
+left: 75px;
+}
+
+#bodytext {
+	color: white;
+	padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 20px;
+}
+
+#name {
+	color: white;
+	font-family: Suisse;
+	font-size: 40px;
+	padding: 36px;
+	padding-bottom: 24px;
+
+}
+#name:hover{
+	text-decoration: underline;
+}
+
+#menu-items {
+	color: white;
+	font-family: Suisse;
+	font-size: 20px;
+    padding-left: 36px;
+
+}
+
+#menu-items:hover{
+	text-decoration: underline;
+}
+
+#gallery-imgs {
+	max-width: 20%;
+	padding: 50px ;
+}
+
+#column {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#hero-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.centered {
+  font-size: 75px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#project-container {
+	z-index: 100;
+	position: relative;
+	top: 200px;
+	width: 45%;
+	left: 15%;
+	/*transform: translate(0%, -50%);*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+
+.preview-img {
+	z-index: 10;
+	position: absolute;
+	top: 0%;
+	display: none;
+	max-height: 500px;
+	justify-content: center;
+
+}
+
+#preview-container {
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	/*height: 500px;*/
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);}
+
+.project-name {
+	padding: 5px;
+	font-size: 35px;
+	font-family: Suisse;
+	color: white;
+	/*display: inline-block;*/
+}
+
+.project-name:hover{
+	text-decoration: underline;
+}
+
+
+#preview-img {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
