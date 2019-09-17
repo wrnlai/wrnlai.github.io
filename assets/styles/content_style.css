@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Times New Roman', Times, serif;
+  src: url(../fonts/times-new-roman.ttf) format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Inconsolata-Bold';
+  src: url(../fonts/Inconsolata-Bold.ttf) format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Inconsolata-Regular';
+  src: url(../fonts/) format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url(../fonts/HelveticaLTStd-Light.otf) format("opentype");
+  font-weight: 400;
+}
+
+h1{
+	font-family: 'Helvetica';
+	font-weight: 400;
+	font-size: 55pt;
+
+}
+
+h2{
+	font-family: 'Helvetica';
+	font-weight: 400;
+	font-size: 40pt;
+	margin-bottom:10px;
+}
+
+h3{
+	font-family: 'Helvetica';
+	font-weight: 100;
+	font-size: 25pt;
+	color: #898989;	
+}
+
+
+h5{
+
+	margin-bottom:0px;
+}
+
+#header-button {
+	display: inline;
+
+}
+
+
+.overline {
+	font-family: 'Inconsolata-Bold';
+	font-weight:400;
+	font-size: 12pt;
+}
+
+.subtitle {
+	font-family: 'Inconsolata-Bold';
+	font-weight: 200;
+	font-size: 12pt;
+	color: #898989;	
+
+}
+
+.hero{
+	position: static;
+	width:40%;
+	display: flex;
+
+}
+.hero-block{
+	padding:25px;
+
+}
+
+nav{
+
+	margin-top: 4rem;
+	text-align: right;
+	margin-right:100px;
+}
+
+.main{
+
+/*	display: flex;*/
+/*	align-items: center;*/
+/*  	justify-content: center;*/
+  	padding: 50px;
+}
+
+
+
+.column {
+  flex: 50%;
+  margin-top:400px;
+/*  padding: 10px;
+  align-items: center;
+  justify-content: center;*/
+
+
+/*  height: 300px;*/ /* Should be removed. Only for demonstration */
+}
+
+
+.card{
+	height: 380px;
+	width: 300px;
+	background: black;
+	margin: 25px;
+	height: 380px;
+}
+
+.list1{
+/*	flex: 50%;*/
+	padding: 25%;
+
+
+}
+
+.square{
+/*	flex: 50%;*/
+	height: 300px;
+  	width: 550px;
+  	background-color: #555;
+  	float: right;
+  	display:inline-block;
+
+}
+
+.big-square{
+	height: 600px;
+	width: 100%;
+	background-color: #555;
+}
+.list{
+	display:inline-block;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+body{
+	background: #FFFCF8;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 64px;
+}
+
+.left-preview{
+	position: relative;
+	display: inline-block;
+	width: 400px;
+	margin-right: 220px;
+}
+.right-preview{
+	position: relative;
+	display: inline-block;
+	width: 400px;
+}
+
+rgin-bottom:0px;
+}
