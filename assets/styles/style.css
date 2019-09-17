@@ -17,27 +17,27 @@
   }
   
   @font-face {
-	font-family: 'Helvetica';
-	src: url(../fonts/HelveticaLTStd-Light.otf) format("opentype");
+	font-family: 'Suisse-Thin';
+	src: url(../fonts/SuisseIntl-Thin.otf) format("opentype");
 	font-weight: 400;
   }
   
   h1{
-	  font-family: 'Helvetica';
+	  font-family: 'Suisse-Thin';
 	  font-weight: 400;
 	  font-size: 35pt;
   
   }
   
   h2{
-	  font-family: 'Helvetica';
+	  font-family: 'Suisse-Thin';
 	  font-weight: 400;
 	  font-size: 25pt;
 	  margin-bottom:10px;
   }
   
   h3{
-	  font-family: 'Helvetica';
+	  font-family: 'Suisse-Thin';
 	  font-weight: 100;
 	  font-size: 16pt;
 	  color: #000000;	
@@ -45,7 +45,7 @@
 
 
   h4{
-	font-family: 'Helvetica';
+	font-family: 'Suisse-Thin';
 	font-weight: 100;
 	font-size: 11pt;
 	color: #000000;	
@@ -90,14 +90,14 @@ p{
   }
 
 .card-title{
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Suisse-Thin';
 	font-size: 25pt;
 	
 }
 
 
 .project-title{
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Suisse-Thin';
 	font-size: 35pt;
 }
 
@@ -116,7 +116,7 @@ p{
 
 .chap{
 	display: block;
-	font-family: 'Helvetica';
+	font-family: 'Suisse-Thin';
 	font-weight: 400;
 	font-size: 15pt;
 	font-style: italic;
