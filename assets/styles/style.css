@@ -22,6 +22,18 @@
 	font-weight: 400;
   }
   
+  @font-face {
+	font-family: 'Suisse-Regular';
+	src: url(../fonts/SuisseIntl-Regular.otf) format("opentype");
+	font-weight: 400;
+  }
+
+  @font-face {
+	font-family: 'Suisse-Medium';
+	src: url(../fonts/SuisseIntl-Medium.otf) format("opentype");
+	font-weight: 400;
+  }
+
   h1{
 	  font-family: 'Suisse-Thin';
 	  font-weight: 400;
@@ -56,6 +68,35 @@
   
 	  margin-bottom:0px;
   }
+
+
+  .header-1{
+	  font-family: 'Suisse-Medium';
+	  font-size:35pt;
+
+  }
+
+  .header-2{
+	font-family: 'Suisse-Thin';
+	font-weight: 400;
+	font-size: 25pt;
+	margin-bottom:10px;
+  }
+
+  .header-3{
+	font-family: 'Suisse-Thin';
+	font-weight: 100;
+	font-size: 16pt;
+	color: #000000;	
+  }
+
+  .header-4{
+	font-family: 'Suisse-Regular';
+	font-weight: 100;
+	font-size: 16pt;
+	color: #000000;	
+  }
+
   
   #header-button {
 	  display: inline;
@@ -63,7 +104,7 @@
   }
 
   .body {
-	font-family: 'Inconsolata-Regular';
+	font-family: 'Suisse-Regular';
 	font-weight:400;
 	font-size: 12pt;
 	color: black;
@@ -114,7 +155,7 @@
 
 .chap{
 	display: block;
-	font-family: 'Suisse-Thin';
+	font-family: 'Suisse-Regular';
 	font-weight: 400;
 	font-size: 15pt;
 	font-style: italic;
@@ -170,8 +211,8 @@ nav{
 	/* display: flex; */
 /*	align-items: center;*/
 /*  	justify-content: center;*/
-	  padding-right: 75px;
-	  padding-left: 75px;
+	  padding-right: 100px;
+	  padding-left: 100px;
 }
 
 
@@ -340,10 +381,36 @@ img{
     width:auto;
 }
 
-.narrow{
+.narrow1{
+	padding-top:100px;
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 100px;
+}
+
+.narrow2{
+	padding-top:100px;
+	padding-bottom:100px;
+	padding-left:200px;
+	padding-right:200px;
+}
+
+
+
+#photos-3{
+	padding-top:100px;
+	padding-left:150px;
+	padding-right:150px;
+
+}
+
+#caption-3{
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:250px;
+	padding-right:250px;
+
+
 }
 
 .center{
