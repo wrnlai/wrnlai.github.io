@@ -124,7 +124,7 @@
 	  font-family: 'Inconsolata-Regular';
 	  font-weight: 200;
 	  font-size: 12pt;
-	  color: #898989;	
+	  color: #000000;	
   
   }
 
@@ -234,7 +234,7 @@ nav{
 /*  height: 300px;*/ /* Should be removed. Only for demonstration */
 }
 .projects{
-	margin-top:40px;
+	margin-top:80px;
 
 }
 
