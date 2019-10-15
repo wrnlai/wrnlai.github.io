@@ -202,8 +202,8 @@ nav{
 	margin-top: 2rem;
 	margin-bottom: 40px;
 	text-align: right;
-	margin-right:70px;
-	margin-left:70px;
+	margin-right:100px;
+	margin-left:100px;
 }
 
 .main{
@@ -215,7 +215,12 @@ nav{
 	  padding-left: 100px;
 }
 
-
+.about{
+	padding-top: 30px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 250px;
+}
 
 .column {
   flex: 50%;
@@ -389,8 +394,8 @@ img{
 }
 
 .narrow2{
-	padding-top:100px;
-	padding-bottom:100px;
+	padding-top:80px;
+	padding-bottom:50px;
 	padding-left:200px;
 	padding-right:200px;
 }
