@@ -1,3 +1,6 @@
+
+
+
 @font-face {
 	font-family: 'Times New Roman', Times, serif;
 	src: url(../fonts/times-new-roman.ttf) format("truetype");
@@ -33,6 +36,10 @@
 	src: url(../fonts/SuisseIntl-Medium.otf) format("opentype");
 	font-weight: 400;
   }
+
+html{
+	font-size: 12px;
+}
 
   h1{
 	  font-family: 'Suisse-Thin';
@@ -202,8 +209,8 @@ nav{
 	margin-top: 2rem;
 	margin-bottom: 40px;
 	text-align: right;
-	margin-right:100px;
-	margin-left:100px;
+	margin-right:8rem;
+	margin-left: 8rem;
 }
 
 .main{
@@ -423,3 +430,41 @@ img{
 	flex-direction: row;
 	justify-content: center;
 }
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (max-width: 992px) {
+	.main{
+		padding: 0 1rem 0 1rem;
+	}
+	h1{
+		font-size: 2.5rem;
+	}
+
+	h2{
+		font-size: 2 rem;
+		
+	}
+
+	nav{
+		margin-top: 2rem;
+		margin-bottom: 40px;
+		text-align: right;
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
+
+	
+}
+/* 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+ */
