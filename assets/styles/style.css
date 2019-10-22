@@ -168,8 +168,16 @@ html{
 	font-style: italic;
 }
 
+.chapter{
+	padding: 2rem 0 5rem 0;
+}
+
 .title-slide{
 	margin: 13% 0 19%;
+}
+
+.background-info{
+	margin: 10% 0 10%;
 }
 
 hr{
@@ -397,14 +405,14 @@ img{
 }
 
 .narrow1{
-	padding-top:100px;
+	/* padding-top:100px; */
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 100px;
 }
 
 .narrow2{
-	padding-top:80px;
+	/* padding-top:80px; */
 	padding-bottom:50px;
 	padding-left:200px;
 	padding-right:200px;
