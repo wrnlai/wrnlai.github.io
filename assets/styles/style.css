@@ -168,6 +168,9 @@ html{
 	font-style: italic;
 }
 
+.title-slide{
+	margin: 13% 0 19%;
+}
 
 hr{
 	color: black;
