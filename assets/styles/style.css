@@ -421,9 +421,9 @@ img{
 
 
 #photos-3{
-	padding-top:100px;
-	padding-left:150px;
-	padding-right:150px;
+
+	padding-left:5rem;
+	padding-right:5rem;
 
 }
 
@@ -477,7 +477,11 @@ img{
 	.narrow2{
 		padding: 0 2rem 3rem 2rem;
 	}
-
+	.narrow1{
+		padding-left: 2rem;
+   		padding-right: 2rem;
+    	padding-bottom: 5rem;
+	}
 	
 }
 /* 
