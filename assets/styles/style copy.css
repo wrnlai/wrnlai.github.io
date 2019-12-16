@@ -78,10 +78,11 @@ html{
 
 
   .header-1{
-	  font-family: 'Suisse-Medium';
-	  font-size:35pt;
+	  font-family: 'Suisse-Regular';
+	  font-size:25pt;
 
   }
+
 
   .header-2{
 	font-family: 'Suisse-Thin';
@@ -229,8 +230,58 @@ nav{
 	/* display: flex; */
 /*	align-items: center;*/
 /*  	justify-content: center;*/
-	  padding-right: 100px;
-	  padding-left: 100px;
+
+	/* padding: 0 20% 0 50%;
+	position: absolute;
+	top: 30%; */
+	position: absolute;
+    top: 25%;
+    margin: 0 100px 0 100px;
+}
+
+.fixed{
+	position: fixed;
+    top: 30%;
+    left: 10%;
+
+}
+.right-card{
+	position: relative;
+	right: 5%;
+	padding: 0 10% 0 45%
+}
+.card-label{
+	border-bottom: 1px dashed #191919;
+	border-right: 1px dashed #191919;
+	border-left: 1px dashed #191919;
+	margin: 0 0 0 0;
+
+}
+
+.main-label{
+	padding: 2rem 0 1rem 2rem;
+	
+}
+.secondary-label{
+	padding: 0 0 1rem 0;
+}
+
+.img-label{
+	padding: 0 0 0 0;
+}
+
+.scroll-tag{
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+}
+
+.cover-title {
+	/* padding: 0 75rem 0 10rem; */
+	max-width: 430px;
+	margin: 0 5rem 0 5rem;
 }
 
 .about{
@@ -256,9 +307,16 @@ nav{
 
 }
 
-.card-container{
-	height: 300px;
-	padding:0px;
+
+.card-section{
+	margin: 0 0 7rem 0;
+
+}
+
+.descriptor-text{
+	/* padding: 0 20% 0 50%; */
+	margin: 0 0 30rem 0;
+
 }
 
 .mycard{
@@ -332,8 +390,8 @@ nav{
   	-ms-transform: translateY(-50%);
   	transform: translateY(-50%);
 }
-body
-	background-color: #fffff;
+body{
+	background-color: #E4EBEF;
 }
 
 .row{
