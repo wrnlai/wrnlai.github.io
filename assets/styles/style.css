@@ -78,10 +78,11 @@ html{
 
 
   .header-1{
-	  font-family: 'Suisse-Medium';
-	  font-size:35pt;
+	font-family: 'Suisse-Regular';
+	font-size:25pt;
 
-  }
+}
+
 
   .header-2{
 	font-family: 'Suisse-Thin';
@@ -142,17 +143,8 @@ html{
 }
 
 
-.project-title{
-	font-family: 'Suisse-Thin';
-	font-size: 35pt;
-}
 
-.project-cont{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
 
-}
 
 .project-nav{
 	position: fixed;
@@ -184,6 +176,7 @@ hr{
 	color: black;
 	margin-top: 2rem;
 	margin-bottom:2rem;
+	border: .5px dashed #191919;
 }
 
 .dotted{
@@ -203,12 +196,7 @@ hr{
 	padding-left: 0;
 }
 
-.hero{
-	position: static;
-	width:40%;
-	display: flex;
 
-}
 .hero-block{
 	padding-right:50px;
 	/* padding-left: 50px; */
@@ -231,6 +219,79 @@ nav{
 /*  	justify-content: center;*/
 	  padding-right: 100px;
 	  padding-left: 100px;
+}
+
+.main-home{
+
+	/* display: flex; */
+/*	align-items: center;*/
+/*  	justify-content: center;*/
+
+	/* padding: 0 20% 0 50%;
+	position: absolute;
+	top: 30%; */
+	position: absolute;
+    top: 25%;
+    margin: 0 100px 0 100px;
+}
+
+.cover{
+	margin: 0 0 20rem 0;
+}
+
+.cover-title {
+	/* padding: 0 75rem 0 10rem; */
+	max-width: 430px;
+	margin: 0 5rem 0 5rem;
+}
+
+
+.right-card{
+	position: relative;
+	padding: 0;
+	/* right: 5%;
+	padding: 0 10% 0 45%; */
+}
+
+.card-label{
+	border-bottom: .5px dashed #191919;
+	border-right: .5px dashed #191919;
+	border-left: .5px dashed #191919;
+	margin: 0 0 0 0;
+
+}
+.main-label{
+	padding: 2rem 0 1rem 2rem;
+	
+}
+
+.secondary-label{
+	padding: 0 2rem 1rem 0;
+	text-align: right;
+}
+
+.explainer-text{
+	color: 9C9C9C;
+	margin: 0;
+	padding:0; 
+}
+.connector-line-r{
+	padding: 0 0 0 1rem;
+}
+
+.connector-line-l{
+	padding: 0 1rem 0 0;
+}
+.img-label{
+	padding: 0 0 0 0;
+}
+
+.scroll-tag{
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, 0);
+
 }
 
 .about{
@@ -256,6 +317,7 @@ nav{
 
 }
 
+/* card-container and mycard to be removed!! */
 .card-container{
 	height: 300px;
 	padding:0px;
@@ -332,8 +394,8 @@ nav{
   	-ms-transform: translateY(-50%);
   	transform: translateY(-50%);
 }
-body
-	background-color: #fffff;
+body{
+	background-color: #E4EBEF;
 }
 
 .row{
