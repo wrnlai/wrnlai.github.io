@@ -231,7 +231,8 @@ nav{
 	position: absolute;
 	top: 30%; */
 	position: absolute;
-    top: 25%;
+	top: 20%;
+	left: 0;
     margin: 0 100px 0 100px;
 }
 
@@ -520,6 +521,30 @@ img{
 
 // Small devices (landscape phones, 576px and up) */
 @media (max-width: 992px) {
+	.main-home{
+		position: absolute;
+    /* top: 25%; */
+    	margin: 0 2rem 0 2rem;
+
+	}
+
+	.cover-title{
+		padding-bottom: 2rem;
+	}
+
+	.cover{
+		margin: 0 0 5rem 0;
+	}
+
+	.card-section{
+		margin: 0 0 5rem 0;
+
+	}
+	.secondary-label{
+		padding: 0 1rem 1rem 0;
+    	text-align: right;
+	}
+
 	.main{
 		padding: 0 1rem 0 1rem;
 	}
@@ -557,9 +582,19 @@ img{
 	}
 	
 }
-/* 
+
+
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+	.main-home {
+		position: absolute;
+		top: 20%;
+		left: 0;
+		margin: 0 4rem 0 4rem;
+	}
+ }
+
+/*
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
