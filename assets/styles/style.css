@@ -241,8 +241,8 @@ nav{
 
 .cover-title {
 	/* padding: 0 75rem 0 10rem; */
-	max-width: 430px;
-	margin: 0 5rem 0 5rem;
+	/* max-width: 430px; */
+	/* margin: 0 3rem 0 3rem; */
 }
 
 
@@ -313,7 +313,7 @@ nav{
 /*  height: 300px;*/ /* Should be removed. Only for demonstration */
 }
 .projects{
-	margin: 9rem 0 5rem 0;
+	margin: 9rem 0 5rem 0;a
 
 }
 
@@ -321,6 +321,11 @@ nav{
 .card-container{
 	height: 300px;
 	padding:0px;
+}
+
+.card-section{
+	margin: 0 0 10rem 0;
+
 }
 
 .mycard{
