@@ -104,6 +104,7 @@ html{
 	font-size: 16pt;
 	color: #000000;	
   }
+  
 
   
   #header-button {
@@ -118,8 +119,17 @@ html{
 	color: black;
   }
 
+  .body-bold{
+	  font-family: 'Suisse-Regular';
 
+  }
    
+  b{
+	font-family: 'Suisse-Regular';
+	font-weight: 400;
+	font-size: 12pt;
+	color: black;
+  }
   
   .overline {
 	  font-family: 'Inconsolata-Regular';
@@ -399,7 +409,7 @@ nav{
   	transform: translateY(-50%);
 }
 body{
-	background-color: #E4EBEF;
+	background-color: #e4ebef5c;
 }
 
 .row{
