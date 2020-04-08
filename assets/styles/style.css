@@ -273,7 +273,7 @@ hr{
 	position: absolute;
 	top: 30%; */
 
-    margin: 25rem 15rem;
+    padding: 15rem 15rem;
 }
 
 
@@ -557,7 +557,7 @@ img{
 	.main-home{
 		position: absolute;
     /* top: 25%; */
-    	margin: 0 2rem 0 2rem;
+    	margin: 2rem 2rem;
 
 	}
 
