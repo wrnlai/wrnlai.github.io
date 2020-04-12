@@ -7,10 +7,20 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+		<!-- aniview -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+		<script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+		
+
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<!-- <link rel="stylesheet" type="text/css" href="assets/styles/spacing.css"> -->
 		<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
-
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
+		<!-- <link rel="stylesheet"  href="assets/styles/animate.css"> -->
 
 		<title>Ubiquity Repositories</title>
 		<link rel="shortcut icon" href="assets/icons/W.ico">
@@ -41,31 +51,16 @@
 
 		
 				
-				<div class=" title-slide" id="ubiq">
-					<div class="my-auto row" style="
-					height:100%;
-					padding: 8rem;
-					">
+				<div class=" title-slide d-flex flex-column-reverse" id="ubiq">
+					<div class="hero row  d-flex align-items-center aniview" data-av-animation="fadeInUp">
 
-					<div class= "col-12 order-first col-lg-8 my-auto position-relative" style="
-					position: relative;
-					z-index: 12;
-				">
+					<div class= "col-12 order-first col-lg-8 p_0 title-img">
 							<img class="img-fluid float-right" height="65%" src="assets/img/ubiquity-repositories-v2/Hero Image.png">	
 	
 	
 						</div>	
-					<div class="col-12 order-last col-lg-4 my-auto position-relative" style="
-					margin: 0 0rem 0 0rem;
-					background-color: 535C7A;
-					z-index: 11;
-					border-radius: 10px;
-				">
-						<div style="
-						margin: 2.5rem;
-						color: white;
-						">
-	
+					<div class="col-12 order-last col-lg-4 title-card" id="ubiq">
+
 							<h1 style=" 
 							line-height: 1;
 							margin-bottom: 2rem;"> Ubiquity Repositories</h1>
@@ -77,52 +72,14 @@
 							<p style="
 							font-size: 11pt;"> Position </p>
 							<p> Design Intern</p>
-							</div>
+			
 					</div>
 				</div>
 				</div>
 
-				<!-- <div class="section" style="overflow:hidden">
-					<img height="500" src="assets/img/ubiquity-repositories-v2/Cropped Hero.png" style="
-						position: absolute;
-						right: 0%;
-						top: 115%;
-						z-index: 1;">	
-					<div class="col-5" style="
-					margin: 0 0rem 0 10rem">
-						<p class="overline">
-							PROJECT OVERVIEW
-						</p>
-						<h1>
-							An academic repository that 
-							simplifies discovery during 
-							the research process. 
-						</h1>
-					</div>
-					<div class="col-12" style="
-					background-color: 454A5F;
-					color: white;
-				">
-						<div class="col-5" style= "
-						margin: 2rem 0 2rem 10rem;
-						padding: 2rem 0;">
-							<p>
-								Ubiquity Press is a United Kingdom-based 
-								academic publisher focusing on open access 
-								publication. Their mission is to make quality 
-								open access publishing affordable for everyone 
-								and create academic tools for research. As a 
-								design intern, I designed their flagship 
-								repository product to empower academics and 
-								researchers.
-							</p>
-						</div>
-					</div>
 
-				</div> -->
-				<div class="d-flex flex-column justify-content-center" style="height:75%">
-					<div class="col-7 section my-auto" style="margin: 0rem 8rem; flex: none;
-					">
+
+					<div class="col-12 col-lg-7 full-text d-flex flex-column justify-content-center ;  ">
 
 						<h2 style="line-height: 1.5;">
 							Ubiquity Press is an academic publisher focusing on open access publication. 
@@ -131,13 +88,12 @@
 							<mark> I designed their flagship repository product to empower academics and researchers. </mark>
 						</h2>
 					</div>
-				</div>
 
-				<div class="section" style="overflow:hidden;
+
+				<div class="section " style="overflow:hidden;
 				">
-					<div class="row" style="
-					margin: 0 0rem 0 8rem">
-						<div class="col-5" >
+					<div class="row aniview "  data-av-animation="slideInRight">
+						<div class=" col-12 col-lg-5 order-first order-lg-last p_1" >
 							<p class="overline">
 								PROJECT OVERVIEW
 							</p>
@@ -152,27 +108,22 @@
 						</div>
 
 
-						<div class="col-7" style="padding:0;">
-							<img class="float-right" height="500" src="assets/img/ubiquity-repositories-v2/Cropped Hero.png" >
+						<div class=" col-12 col-lg-7 order-last order-lg-first pb_1" >
+							<img class="float-right img-fluid" src="assets/img/ubiquity-repositories-v2/Cropped Hero.png" >
 						</div>
 					</div>
 
-					<div class="col-12" style="
+					<div class="col-12 p-4 px-5" style="
 					background-color: 454A5F;
 					color: white;
 					z-index: -5;
 				">
-						<div class="col-4" style= "
-						margin: -14rem 0 2rem 8rem;
-						padding: 4rem 0;
-						">
 							<p>
 								Current academic repositories are notorious for their cognitive overload
 								 and lack of information architecture. We believe that academic search
 								  should be one that simplifies search, and one that promotes 
 								  discoverability of an institution’s research. 
 							</p>
-						</div>
 					</div>
 
 
@@ -182,18 +133,18 @@
 
 				<div class="section"
 				>
-					<div class="row align-items-center" style="padding: 7rem 15rem; 
+					<div class="row  align-items-center px-2 p-4" style="
 					background-color: #dedede;">
-						<div class="col-6">
+						<div class=" col-12 col-lg-6">
 							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/Final Screen 1.png" >
 						</div>
-						<div class="col-6">
+						<div class=" col-12 col-lg-6">
 							<img class="img-fluid" src="assets/img/ubiquity-repositories-v2/Final Screen 2.png" >
 						</div>
-						<div class="col-6">
+						<div class="col-12 col-lg-6">
 							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/Final Screen 3.png" >
 						</div>
-						<div class="col-6">
+						<div class="col-12 col-lg-6">
 							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/Final Screen 4.png" >
 						</div>
 						<div class="col-12" style="margin-top: 3rem;">
@@ -204,24 +155,24 @@
 					</div>
 				</div>
 
-				<div class="section" style="margin: 10rem 8rem;">
-					<div class="col-12" style="padding: 0 0 3rem;">
-						<p class="overline">NEEDFINDING</p>
+				<div class="section px_1 aniview" data-av-animation="slideInRight" >
+					<div class="col-12 ">
+						<p class="overline"> NEEDFINDING</p>
 						<h1>Core Insights</h1>
 					</div>
-					<div class="row">
-						<div class="col-5">
+					<div class="row ">
+						<div class="col-12 col-lg-5 pb_1">
 							<p>
 								Through an extensive competitive analysis and user interviews with 
 								various figures in academia, we learned about various use cases 
-								and their perceptions of current repositories
+								and their perceptions of current repositories.
 								<br>
 								<br>
-								Based on our research we derived three [design goals] that Ubiquity Repositories is based on.
+								Based on our research we derived three design goals that Ubiquity Repositories is based on.
 							</p>
 						</div>
-						<div class="col-5 offset-2">
-							<div>
+						<div class="col-12 col-lg-5 offset-lg-2">
+							<div class="pb_0">
 								<p class="overline">
 									i. Communicates ready-to-use experience
 								</p>
@@ -231,7 +182,7 @@
 									This is a process that takes time.
 								</p>
 							</div>
-							<div>
+							<div class="pb_0">
 								<p class="overline">
 									ii. Search that feels in control
 								</p>
@@ -241,7 +192,7 @@
 									This is a process that takes time.
 								</p>
 							</div>
-							<div>
+							<div class="pb_0">
 								<p class="overline">
 									iii. Convey impact of authors + work
 								</p>
@@ -257,13 +208,13 @@
 					</div>
 				</div>
 
-				<div class="section" style="margin: 10rem 8rem;">
+				<div class="section p_1">
 					<div class="col-12" style="padding: 0 0 3rem;">
 						<p class="overline">USER FLOW DESIGN</p>
 						<h1>Incorporating Mental Models</h1>
 					</div>
-					<div class="row">
-						<div class="col-5">
+					<div class="row" >
+						<div class="col-12 col-lg-5 pb_0" style="padding:0;">
 							<p>Through an extensive competitive analysis and user 
 							interviews with various figures in academia, we learned
 							 about various use cases and their perceptions of current
@@ -274,40 +225,41 @@
 							Repositories is based on.
 							</p>
 						</div>
-						<div class="col-7">
+						<div class="col-12 col-lg-7 pt_0">
 							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/Simplified User Flow.png" >
+							<p class=mx_0>  A simplified user flow depicting the two main functionalities we designed for.  </p>
 
 						</div>
 					</div>
 				</div>
+				<div class="section">
+					<div class=" p_1" >
+						<div class="col-12" style="padding: 0 0 3rem;">
+							<p class="overline">A BRIEF GLANCE</p>
+							<h1>Ideation</h1>
+						</div>
+							<div class="col-12 col-lg-6" style="padding:0;">
+								<p>A variety of low-fidelity sketches done in pen/paper and Figma. 
+									This was still largely exploratory, as we were exploring a 
+									different direction that strayed away from traditional repository 
+									interfaces.
+								</p>
+							</div>
 
-				<div class="section" style="margin: 10rem 8rem 3rem;">
-					<div class="col-12" style="padding: 0 0 3rem;">
-						<p class="overline">A BRIEF GLANCE</p>
-						<h1>Ideation</h1>
 					</div>
-						<div class="col-6" style="padding:0;">
-							<p>A variety of low-fidelity sketches done in pen/paper and Figma. 
-								This was still largely exploratory, as we were exploring a 
-								different direction that strayed away from traditional repository 
-								interfaces.
-							</p>
+					<div class="row ">
+						<div class="col-12 col-lg-6" style="background-color: #D8DFE3;
+						">
+							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/lofi sketches.png" >
 						</div>
 
-				</div>
-				<div class="row">
-					<div class="col-6" style="background-color: #D8DFE3;
-					">
-						<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/lofi sketches.png" >
+						<div class="col-12 col-lg-6" style="background-color: #838FBB;">
+							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/midfi frames.png" >
+						</div>
+
 					</div>
-
-					<div class="col-6" style="background-color: #838FBB;">
-						<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/midfi frames.png" >
-					</div>
-
 				</div>
-
-				<div class="col-7 section" style="margin: 15rem 8rem;">
+				<div class="col-12 col-lg-7 full-text d-flex flex-column justify-content-center" >
 
 					<h2 style="line-height: 1.5;">
 						The objective of Ubiquity Repositories was to 
@@ -322,43 +274,25 @@
 					</h2>
 				</div>
 
-				<div class="row" style="margin: 15rem 8rem;">
-					<div class="col-4 d-flex flex-column align-items-start" style="padding: 0 0 0rem;">
+				<div class="row section" >
+					<div class="col-12 col-lg-4 d-flex flex-column align-items-start px_1" >
 						<p class="overline">HOMEPAGE</p>
 						<h1>Establishing Significance</h1>
-						<div  style="padding:3rem 0;">
+						<div class="py_0">
 							<p>The homepage proudly showcases the research being done at the university 
 								and provides easy access to the main search functions of the repository. 
+								<br>
+								<br>
+								We designed this homepage to flexibly display different types of media: from 
+								art archives to technical research articles. 
 							</p>
 						</div>
-						<div class="mt-auto">
 
-							<a class="carousel-control" href="#homepage_carousels" data-slide="prev">
-								<p style="
-								display: inline;
-								
-							">previous</p>
-							</a>
-							<p style="
-								display: inline;
-								
-							">  //  </p>
-							<a class="carousel-control" href="#homepage_carousels" data-slide="next">
-								<p style="
-								display: inline;
-								
-							"> next</p>
-
-							</a>
-
-						</div>
 					</div>
 
-					<div class="col-8" style="padding: 0 0 0 4rem;">
-						<div id="homepage_carousels" class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner" style="border-radius: 5px;
-							box-shadow: 5px 5px 20px grey;
-							" >
+					<div class="col-12 col-lg-8 p_0" >
+						<div id="homepage_carousels" class="carousel slide " data-ride="carousel">
+							<div class="carousel-inner carousel-style" >
 							  <div class="carousel-item active">
 								<img class="d-block w-100" src="assets/img/ubiquity-repositories-v2/Home Page visual heavy.jpg" alt="First slide">
 							  </div>
@@ -375,17 +309,37 @@
 
 
 						  </div>
+
+						  <div class="mt-auto d-flex col-5 flex-row justify-content-between py_1"  >
+
+							<a class="carousel-control nav-controls" href="#homepage_carousels" data-slide="prev">
+								<div class="d-flex nav-button justify-content-center">
+									<img id="prev" src="assets/icons/prev.svg">
+								</div>
+
+							</a>
+							<!-- <p style="
+								display: inline-block;
+								
+							">  //  </p> -->
+							<a class="carousel-control nav-controls" href="#homepage_carousels" data-slide="next">
+								<div class="d-flex nav-button justify-content-center">
+									<img id="next" src="assets/icons/next.svg">
+								</div>
+
+							</a>
+
+						</div>
 					</div>
 
 				</div>
 
-				<div class="row" style="margin: 15rem 8rem;">
+				<div class="row section" >
 
-					<div class="col-8" style="padding: 0 4rem 0 0rem;">
+					<div class="col-12 col-lg-8 p_0" >
 						<div id="works_car" class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner" style="border-radius: 5px;
-							box-shadow: 5px 5px 20px grey;
-							" >
+							<div class="carousel-inner carousel-style"
+							>
 							  <div class="carousel-item active">
 								<img class="d-block w-100" src="assets/img/ubiquity-repositories-v2/Tesla Magnetic Article.jpg" alt="First slide">
 							  </div>
@@ -396,12 +350,33 @@
 
 
 						</div>
+
+						<div class="mt-auto d-flex col-5 flex-row justify-content-between py_1"  >
+
+							<a class="carousel-control nav-controls" href="#works_car" data-slide="prev">
+								<div class="d-flex nav-button justify-content-center">
+									<img id="prev" src="assets/icons/prev.svg">
+								</div>
+
+							</a>
+							<!-- <p style="
+								display: inline-block;
+								
+							">  //  </p> -->
+							<a class="carousel-control nav-controls" href="#works_car" data-slide="next">
+								<div class="d-flex nav-button justify-content-center">
+									<img id="next" src="assets/icons/next.svg">
+								</div>
+
+							</a>
+
+						</div>
 					</div>
 
-						  <div class="col-4 d-flex flex-column align-items-start" style="padding: 0 0 0 3rem;">
+						  <div class="col-12 col-lg-4 d-flex flex-column align-items-start order-first px_1">
 							<p class="overline">WORKS + AUTHOR</p>
 							<h1>Clear and Concise</h1>
-							<div  style="padding:3rem 0;">
+							<div class=py_0>
 								<p>Displays key pieces of information describing the research material. 
 									Researchers can use this page to cite, download, or overview the work.
 									<br>
@@ -412,41 +387,23 @@
 									 they can be discovered by the larger scientific community. 
 									This page can be customized this to showcase their academic interests
 									 and other works they’ve contributed to.
+									 <br>
+									 <br>
 
 
 
 
 								</p>
 							</div>
-							<div class="mt-auto">
-	
-								<a class="carousel-control" href="#works_car" data-slide="prev">
-									<p style="
-									display: inline;
-									
-								">previous</p>
-								</a>
-								<p style="
-									display: inline;
-									
-								">  //  </p>
-								<a class="carousel-control" href="#works_car" data-slide="next">
-									<p style="
-									display: inline;
-									
-								"> next</p>
-	
-								</a>
-	
-							</div>
+
 						</div>
 				</div>
 
-				<div class="row" style="margin: 15rem 8rem;">
-					<div class="col-4 d-flex flex-column align-items-start" style="padding: 0 0 0rem;">
+				<div class="row section " >
+					<div class="col-12 col-lg-4 d-flex flex-column align-items-start px_1">
 						<p class="overline">SEARCH RESULTS</p>
 						<h1>Discovering Articles Faster</h1>
-						<div  style="padding:3rem 0;">
+						<div class="py_0">
 							<p>Displays research materials and author profiles from the institution. 
 							Allows users to easily filter results for specific search queries.
 
@@ -456,11 +413,10 @@
 
 					</div>
 
-					<div class="col-8" style="padding: 0 0 0 4rem;">
+					<div class="col-12 col-lg-8 p_0">
 
-							<div class="carousel-inner" style="border-radius: 5px;
-							box-shadow: 5px 5px 20px grey;
-							" >
+							<div class="carousel-inner carousel-style" 
+							 >
 
 							<img class="d-block w-100" src="assets/img/ubiquity-repositories-v2/Search Results 1.5.jpg" alt="First slide">
 
@@ -478,20 +434,13 @@
 
 
 
-
-		<!-- <script src="assets/js/siema-1.5.1/dist/siema.min.js"></script>
-		<script>
-		  const mySiema = new Siema();
-		  document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
-		 document.querySelector('.next').addEventListener('click', () => mySiema.next());
-   
-	   </script> -->
 		
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>		
+
+
 	
 	
 	
