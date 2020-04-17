@@ -17,60 +17,75 @@ html{
 
 /* --------------- text-styling -------------------------------------------- */
 
-  @font-face {
-	font-family: 'Suisse-Thin';
-	src: url(../fonts/SuisseIntl-Thin.otf) format("opentype");
-	font-weight: 400;
-  }
-  
-  @font-face {
-	font-family: 'Suisse-Regular';
-	src: url(../fonts/SuisseIntl-Regular.otf) format("opentype");
-	font-weight: 400;
-  }
+@font-face {
+font-family: 'Suisse-Thin';
+src: url(../fonts/SuisseIntl-Thin.otf) format("opentype");
+font-weight: 400;
+}
 
-  @font-face {
+@font-face {
+font-family: 'Suisse-Regular';
+src: url(../fonts/SuisseIntl-Regular.otf) format("opentype");
+font-weight: 400;
+}
+
+@font-face {
+font-family: 'Suisse-Medium';
+src: url(../fonts/SuisseIntl-Medium.otf) format("opentype");
+font-weight: 400;
+}
+
+
+
+h1{
 	font-family: 'Suisse-Medium';
-	src: url(../fonts/SuisseIntl-Medium.otf) format("opentype");
 	font-weight: 400;
-  }
+	font-size: 2.0rem;
+	color: #40424A;
+	margin-bottom:30px;
+	
 
 
+}
 
-  h1{
-	  font-family: 'Suisse-Medium';
-	  font-weight: 400;
-	  font-size: 1.5rem;
-
-  
-  }
-  
-  h2{
-	  font-family: 'Suisse-Regular';
-	  font-weight: 400;
-	  font-size: 1.3rem;
-	  /* margin-bottom:10px; */
-  }
-  
-
-  p{
+h2{
 	font-family: 'Suisse-Regular';
-	font-size: .95rem;
-	margin:0;
+	font-weight: 400;
+	font-size: 1.3rem;
+	color: #40424A
+	/* margin-bottom:10px; */
+}
 
-  }
+
+p{
+font-family: 'Suisse-Regular';
+font-size: .95rem;
+margin:0;
+color: #40424A;
+padding-bottom: 15px;
+
+}
 
 
-  .overline {
-	  font-family: 'Suisse-Regular';
-	  font-weight:400;
-	  font-size: 14pt;
-	  color: #5E70B1;
-	  /* letter-spacing: 1; */
-	  padding-bottom: .75rem;
-	  /* color: #ffffff; */
-  }
+.overline {
+	font-family: 'Suisse-Regular';
+	font-weight:400;
+	font-size: 14pt;
+	color: #5E70B1;
+	/* letter-spacing: 1; */
+	padding-bottom: .75rem;
+
+	/* color: #ffffff; */
+}
   
+.label{
+	
+	font-size: 10pt;
+	font-family: Suisse-Regular;
+	color: #4F4F4F;
+	padding: 0;
+							
+}
 
 
 mark{
@@ -96,12 +111,18 @@ mark{
 	margin-bottom: 80px;
 }
 
+.showcase{
+	padding: 30px;
+	
+}
 
 /* ------------------------------Intro-Writeup Styling ------------------------------------------------------------ */
 
 .title-slide{
 	height: 100%;
+	background-color: #535C7A;
 	/* display: flex; */
+	
 	
 }
 
@@ -111,32 +132,43 @@ mark{
 	padding: 36px 60px;
 	color: white;
 	margin-top:15px;
+	background-color: #FFFFFF;
 }
 
 .title-img{
-	margin-bottom:100px;
+	margin-bottom:20px;
+	background-color: #535C7A;
 } 
 
 #ubiq.title-card{
-	background-color: #535C7A;
+	background-color: #FFFFFF;
 
 
 }
 
 #ubiq.title-slide{
-	background-color: 838FBB;
+	background-color: #535C7A;
 }
+
 
 .hero{
 	
 }
 
+hr {
+	border:none;
+	border-top:1px dotted #4F4F4F;
+	/* color:#fff; */
+	/* background-color:#fff; */
+	height:1px;
+	width:100%;
+  }
+
 
 /* -------------------- full-text-sections ----------------------------------------*/
 
 .full-text {
-	padding:0 30px;
-	height:100%;
+	margin: 200px 0;
 
 
 }
@@ -147,12 +179,13 @@ mark{
 .nav-controls{
 	display:inline-block;
 	height: fit-content;
+	padding: 0 15px;
 }
 
 .nav-button{
 	border-radius: 50%;
-    width: 50px;
-	height: 50px;
+    width: 30px;
+	height: 30px;
 	/* outline-style: solid; */
 	/* background-color: #5E70B1; */
 	/* outline-color: grey; */
@@ -161,11 +194,16 @@ mark{
 	transition: background-color .5s;
 	transition-timing-function: ease-in-out;
 }
+.nav-icon{
+	padding: 7px;
+}
+
 
 #next #prev{
 	filter: invert(23%) sepia(3%) saturate(30%) hue-rotate(314deg) brightness(95%) contrast(94%);
 	transition: background-color .5s;
 	transition-timing-function: ease-in-out;
+	
 }
 
 
@@ -194,6 +232,17 @@ mark{
 
 
 /* ------------------------ Spacing ------------------------------- */
+
+.overall-spacing {
+	padding: 0 30px;
+}
+#custom-ubiq-1 {
+	padding: 0 30px 0 30px;
+}
+
+#side-laptop{
+	padding: 0 0 120px 60px;
+}
 
 
 .m_0{
@@ -236,19 +285,21 @@ mark{
 }
 
 .pt_0{
-	padding-top: 15px;
+	padding: 15px 0 0 0;
 }
 
 .pb_0{
-	
+	padding: 0;
 	padding-bottom: 15px;
 }
 
 .pr_0{
+	padding: 0;
 	padding-right: 15px;
 }
 
 .pl_0{
+	padding: 0;
 	padding-left: 15px;
 }
 
@@ -289,23 +340,27 @@ mark{
 }
 
 .py_1{
+	padding: 0;
 	padding: 30px 0;
 }
 
 .pt_1{
+	padding: 0;
 	padding-top: 30px;
 }
 
 .pb_1{
-	
+	padding: 0;
 	padding-bottom: 30px;
 }
 
 .pr_1{
+	padding: 0;
 	padding-right: 30px;
 }
 
 .pl_1{
+	padding: 0;
 	padding-left:30px;
 }
 
@@ -324,13 +379,174 @@ mark{
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+	/* --------------- text-styling -------------------------------------------- */
+
+@font-face {
+	font-family: 'Suisse-Thin';
+	src: url(../fonts/SuisseIntl-Thin.otf) format("opentype");
+	font-weight: 400;
+	}
+	
+	@font-face {
+	font-family: 'Suisse-Regular';
+	src: url(../fonts/SuisseIntl-Regular.otf) format("opentype");
+	font-weight: 400;
+	}
+	
+	@font-face {
+	font-family: 'Suisse-Medium';
+	src: url(../fonts/SuisseIntl-Medium.otf) format("opentype");
+	font-weight: 400;
+	}
+	
+	
+	
+	h1{
+		font-family: 'Suisse-Medium';
+		font-weight: 400;
+		font-size: 2.5rem;
+		color: #40424A;
+		margin-bottom: 15px;
+		
+	
+	
+	}
+	
+	h2{
+		font-family: 'Suisse-Regular';
+		font-weight: 400;
+		font-size: 1.3rem;
+		color: #40424A
+		/* margin-bottom:10px; */
+	}
+	
+	
+	p{
+	font-family: 'Suisse-Regular';
+	font-size: .95rem;
+	margin:0;
+	color: #40424A;
+	padding-bottom: 15px;
+	
+	}
+	
+	
+	.overline {
+		font-family: 'Suisse-Regular';
+		font-weight:400;
+		font-size: 14pt;
+		color: #5E70B1;
+		/* letter-spacing: 1; */
+		padding-bottom: .75rem;
+	
+		/* color: #ffffff; */
+	}
+	  
+	.label{
+		
+		font-size: 10pt;
+		font-family: Suisse-Regular;
+		color: #d2d2d2;
+		padding: 0;
+								
+	}
+	
+	
+	mark{
+		background-color: #FFEB36;
+		background-radius: 5px;
+	
+	}
+	
+	.project-nav{
+		/* margin-top: 2rem;
+		margin-bottom: 40px; */
+		text-align: right;
+		/* margin-right: 2rem;
+		margin-left: 2rem; */
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	
+	}
+
+	p#userflow-caption{
+		padding: 0 50px;
+		color: #818181;
+
+	}
+	
+	.section{
+		margin-bottom: 120px;
+	}
+	.showcase{
+		padding: 50px 120px;
+	}
+
+
+/* ------------------------------Intro-Writeup Styling ------------------------------------------------------------ */
+
+.title-slide{
+	height: 100%;
+	/* display: flex; */
+	
+}
+
+.title-card{
+	height:fit-content;
+	/* border-radius: 10px; */
+	padding: 80px 80px;
+	color: white;
+	margin-top:15px;
+}
+
+.title-img{
+	margin-bottom:20px;
+	padding: 75px;
+	background-color: #535C7A;
+	
+} 
+
+#ubiq.title-card{
+	background-color: #ffffff;
+
+
+}
+
+#ubiq.title-slide{
+	background-color: #535C7A;
+}
+
+.hero{
+	
+}
+
+.overall-spacing{
+	padding: 0 150px;
+}
+
+#custom-ubiq-1 {
+	padding: 0 150px;
+}
+
+#side-laptop{
+	padding: 0 0 120px 200px;
+}
+#ideation-photos{
+	padding: 0 80px;
+		
+}
+
+
+
  }
 
 
 
 /* // Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) { 
+@media (min-width:992px) { 
 
 	/* -----------Intro-Writeup Styling ---------------------------------------------------------------------------------------- */
 	.title-slide{
@@ -342,33 +558,48 @@ mark{
 	}
 	
 	#ubiq.title-slide{
-		background-color: 838FBB;
+		background-color: #838FBB;
 	}
 
 	.title-card{
 		height:fit-content;
-		border-radius: 10px;
-		padding: 20px 36px;
+		border-radius: 0px;
+		padding: 20% 125px;
     	color: white;
-    	margin-top: 15px;
+		margin-top: 0;
+		height: 100%;
+
+
 
 	}
 	
 	#ubiq.title-card{
-		background-color: #535C7A;
+		background-color: #FFFFFF;
 	
 	
 	}
 	.hero{
 		padding: 8rem;
 	}
+	
+	.showcase{
+		padding: 50px 120px;
+	}
+
+	.title-img{
+		margin-bottom:0;
+		padding: 15px;
+		height: 100%;
+		
+		
+		
+	} 
 
 
 	/* -----full-text sections */
 
 	.full-text{
-		padding:0 30px;
-		height:75%;
+		height:85%;
 	}
 
 	
@@ -382,6 +613,7 @@ mark{
 		  font-family: 'Suisse-Medium';
 		  font-weight: 400;
 		  font-size: 35pt;
+		  padding-bottom: 30px;
 	
 	  
 	  }
@@ -389,7 +621,7 @@ mark{
 	  h2{
 		  font-family: 'Suisse-Regular';
 		  font-weight: 400;
-		  font-size: 25pt;
+		  font-size: 1.8rem;
 		  /* margin-bottom:10px; */
 	  }
 	  
@@ -416,6 +648,7 @@ mark{
 		font-family: 'Suisse-Regular';
 		font-size: 14pt;
 		margin:0;
+		padding-bottom: 15px;
 	
 	  }
 
@@ -435,8 +668,33 @@ mark{
 		background-radius: 5px;
 	
 	}
+/* ------------------------ Spacing ------------------------------- */
+
+	.overall-spacing{
+		padding: 0 150px;
+	}
+
+	#custom-ubiq-1 {
+		padding: 0 0 0 150px;
+	}
+
+	#side-laptop{
+		padding: 0 0 120px 60px;
+	}
+
+	#ideation-photos{
+
+	}
+
+
+
+
+}
+
+
 	
- }
+	
+ 
 
 /*
 
