@@ -1,0 +1,82 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+#full-width-photos{
+    padding: 30px;
+    background-color: #CCCCCC;
+
+}
+
+#predictev-hero{
+    max-width: 88%;
+    height: auto;
+
+}
+
+#insight-idesign{
+    padding: 0 80px 15px 80px;
+}
+
+#insight-chat{
+    padding: 0 50px 15px 50px;
+}
+
+#insight-betting{
+    padding: 0 100px 15px 100px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    #predictev-hero{
+        max-width: 68%;
+        height: auto;
+    
+    }
+
+    #insight-idesign{
+        padding: 0 ;
+    }
+    
+    #insight-chat{
+        padding: 0 ;
+    }
+    
+    #insight-betting{
+        padding: 0 ;
+    }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    #predictev-hero{
+        max-width: 68%;
+        height: auto;
+    
+    }
+
+    #predictev-ideation{
+        padding: 80px;
+
+    }
+
+
+#full-width-photos{
+    padding: 80px;
+    background-color: #CCCCCC;
+
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+    
+
+
+}
