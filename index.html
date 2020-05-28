@@ -10,7 +10,7 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/styles/style.css"> -->
 		<link rel="stylesheet" type="text/css" href="assets/styles/home.css">
 
 		<!-- Description?-->
@@ -21,8 +21,13 @@
 		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 		<script src="jquery-3.4.1.min.js"></script>
 
+		<!-- ANIMATE.CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+
+
 	</head>
-	<body style="background-image: linear-gradient(#FFFFFF, #75ffa44a);">
+	<body >
 		<!-- <nav>
 			<div class="menu">
 				<p class="button" id="header-button">Projects</p>
@@ -33,48 +38,136 @@
 		</nav> -->
 		<div class= "container-fluid">
 
-			<div class="row" style="height:100%">
+			<div class="col-12 hero-section" style="height:100vh; background-color: #006D97;">
+				<div class="hero-row">
+					<div class="hero col-12 col-lg-3 ">
+						<p class="label" style="color:white;">
+							This is a showcase, archive, and playground of my work.
+						</p>
 
-				<div class="  col-12 offset-lg-1  col-lg-3 order-lg-first order-last " style="
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-			">
-					<p class="overline">
-						name
-					</p>
-					<h2>
-						Warren Lai
-					</h2>
-					<p class="overline">
-						currently
-					</p>
-					<h2>
-						Working on my website. and fiddling on Processing.
-					</h2>
-					<p class="overline">
-						site status
-					</p>
-					<h2>
-						Under construction.
-					</h2>
+							<!-- <div class="row">
+								<div class="circle-button d-flex flex-column justify-content-center align-items-center" id="hero" style="display: inline;">
+									<p class="hero-text"> About Me</p>
+								</div>
+								<div class="circle-button d-flex flex-column justify-content-center align-items-center" id="hero" style="display: inline;">
+									<p class="hero-text"> In the Lab</p>
+								</div>
+								<div class="circle-button d-flex flex-column justify-content-center align-items-center" id="hero" style="display: inline;">
+									<p class="hero-text"> All Projects</p>
+								</div>
+
+							</div> -->
+					</div>
+
+					<div class="row" style="
+					margin-top: 100px;
+				">
+						<div class="col-lg-9">
+							<h1>Warren Lai</h1>
+							<div >
+								<h1>is a multidisciplinary designer. Specializes in designing humane interfaces and experiences.  </h1>
+							</div>
+						</div>
+
+						<div class="col-lg-1 offset-lg-2 d-flex flex-column justify-content-end"">
+							<p class="label" style="color:white;">
+								portfolio
+							</p>
+							<h1>V5</h1>
+						</div>
+					</div>
 
 				</div>
-
-				<div data-tilt data-tilt-full-page-listening class="col-12 col-lg-7 " style="padding:50px; ">
-
-					<img class="img-fluid" src="assets/img/construction/lol flowers.svg">
-
-				</div>
-
-
-
-
 			</div>
+			<DIV class="project">
+				<div class="col-lg-8 offset-lg-2 project-section" id="ubiq">
+					<div class="col-lg-8 offset-lg-2">
+						<h3>Ubiquity Repositories</h3> 
+						<p> An academic repository that simplifies discovery during the research process.</p>
+					</div> 
+					<div class="row reveal-photo">
+						
+						<div class="col-6 project-photo ">
+							<img class="img-fluid align-self-center  " id="ubiquity-screen" src="assets/img/ubiquity-repositories-v2/Hero Image.png">	
+						</div>
+						<div class="col-6 project-photo">
+							<img class="img-fluid align-self-center " id="ubiquity-screen" src="assets/img/ubiquity-repositories-v2/Hero Image.png">	
+						</div>
+					</div>
+					<div class="col-lg-8 offset-lg-2">
+						<hr>
+						<p class="label">Design Intern • Product Design • Summer ‘19. </p>
+					</div>
+		
+				</div>
 
-	
-					
-		</div>
+				<div class="col-lg-8 offset-lg-2 project-section" id="ubiq">
+					<div class="col-lg-8 offset-lg-2">
+						<h3>Mayv</h3> 
+						<p> Designing a integrative program for patients with autoimmune conditions.</p>
+					</div> 
+					<div class="row reveal-photo">
+						
+						<div class="col-4 project-photo ">
+							<img class="img-fluid align-self-center  "  src="assets/img/mayv/hero 01.png">	
+						</div>
+						<div class="col-4 project-photo">
+							<img class="img-fluid align-self-center " src="assets/img/mayv/hero 02.png">	
+						</div>
+						<div class="col-4 project-photo">
+							<img class="img-fluid align-self-center " src="assets/img/mayv/hero 03.png">	
+						</div>
+					</div>
+					<div class="col-lg-8 offset-lg-2">
+						<hr>
+						<p class="label">Design Intern • Product Design • Summer ‘19. </p>
+					</div>
+		
+				</div>
+
+				<div class="col-lg-8 offset-lg-2 project-section" id="ubiq">
+					<div class="col-lg-8 offset-lg-2">
+						<h3>PredictEV</h3> 
+						<p> Interface components for live-stream betting.</p>
+					</div> 
+					<div class="row reveal-photo">
+						
+						<div class="col-4 project-photo ">
+							<img class="img-fluid align-self-center  "  src="assets/img/predictev/hero 01.png">	
+						</div>
+						<div class="col-4 project-photo">
+							<img class="img-fluid align-self-center " src="assets/img/predictev/hero 02.png">	
+						</div>
+						<div class="col-4 project-photo">
+							<img class="img-fluid align-self-center " src="assets/img/predictev/hero 03.png">	
+						</div>
+					</div>
+					<div class="col-lg-8 offset-lg-2">
+						<hr>
+						<p class="label">Design Intern • Product Design • Summer ‘19. </p>
+					</div>
+		
+				</div>
+
+				<div class="col-lg-8 offset-lg-2 project-section" id="ubiq">
+					<div class="col-lg-8 offset-lg-2">
+						<h3>Louvre Search Redesign</h3> 
+						<p> Improving upon the art discovery process.</p>
+					</div> 
+					<div class="row reveal-photo">
+						
+						<div class="col-8 offset-lg-2 project-photo ">
+							<img class="img-fluid align-self-center  "  src="assets/img/louvre/hero.png">	
+						</div>
+					</div>
+					<div class="col-lg-8 offset-lg-2">
+						<hr>
+						<p class="label">Design Intern • Product Design • Summer ‘19. </p>
+					</div>
+		
+				</div>
+				
+			</DIV>
 
 			
 					
