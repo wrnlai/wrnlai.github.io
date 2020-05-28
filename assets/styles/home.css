@@ -320,9 +320,10 @@ margin-bottom:0;
 	  h1{
 		  font-family: 'Suisse-Medium';
 		  font-weight: 400;
-		  font-size: 3.5rem;
+		  font-size: 5.5rem;
           padding-bottom: 0;
-          line-height: 3.5rem;
+		  line-height: 5.5rem;
+		  color:#ffffff;
           /* height: 60px; */
 
 	  }
