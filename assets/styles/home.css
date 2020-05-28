@@ -5,7 +5,7 @@ html{
 }
 
 body{
-	background-color: #f2f2f2;
+	background-color: #e9e9e1;
 }
 
 .row{
@@ -14,7 +14,7 @@ body{
 }
 
 .container-fluid{
-	padding: 0;
+	padding: 15px;
 	
 }
 
@@ -78,7 +78,7 @@ h3{
 	font-size: 1.3rem;
 	color: #40424A;
 	margin-bottom:0;
-	transition: font-size .5s ease-out;
+	transition: font-size 2s ease-in-out;
 
 }
 
@@ -148,7 +148,8 @@ margin-bottom:0;
 }
 
 .hero-section{
-    background-image: url("../img/home-hero-test.svg");
+	background-image: url("../img/home-hero-test.svg");
+	border-radius:25px;
 }
 
 .highlight{
@@ -329,9 +330,9 @@ margin-bottom:0;
 	  }
 	  
 	  h2{
-		  font-family: 'Suisse-Medium';
+		  font-family: 'Suisse-Regular';
 		  font-weight: 400;
-		  font-size: 1.2rem;
+		  font-size: 1.6rem;
 		  /* margin-bottom:10px; */
 	  }
 	  
@@ -387,52 +388,56 @@ margin-bottom:0;
 		transition: height 4s; */
 		max-height:0;
 		overflow: hidden;
-		transition: max-height .5s ease-out;
+		transition: max-height 1s ease-in;
 		/* transition: all 2s ease-out; */
 	  }
 
-	  #ubiq:hover h3{
-		font-size: 2.0rem; 
-		transition: font-size .5s ease-in;
-	}
+	  .button{
+		  padding: 8px 24px; 
+		  border-radius:50px;
+		  border-style: solid;
+		  border-width: 2px;
+		  border-color: #40424A;
 
-	  #ubiq:hover .reveal-photo {
-		 
-		  
-		  max-height: 1000px;
-		  transition: max-height .5s ease-in;
-		  -webkit-animation: fadeIn .75s;
-		  animation: fadeIn .75s;
-		  
-		  /* visibility: visible; */
-		  /* opacity: 1; */
-		  
-		  
 	  }
 
+
+
 	  #ubiq {
-		  /* transition: all 2s; */
+		  transition: all 2s;
 	  }
 
 	  .col-lg-8{
-		transition: margin-left .5s ease-out, margin-right .5s ease-out ;
+		transition: margin-left .5s ease-in, margin-right .5s ease-in ;
 	  }
 
 	  #ubiq:hover .col-lg-8{
-		  margin-left:0;
-		  margin-right:0;
+		  /* margin-left:0;
+		  margin-right:0; */
 		  transition: margin-left .5s ease-in, margin-right .5s ease-in ;
 	  }
 
-
+	  #ubiq:hover h3{
+		/* font-size: 2.0rem;  */
+		
+	}
 
 	  #ubiq:hover {
 		  /* border: dashed; */
 		  /* background-color:#E0E0E0; */
 		  border-width: 1px;
-		  padding:80px 50px;
-
+		  padding:40px 50px;
 		  box-shadow:5px 10px 20px #E0E0E0;
 	  }
+
+	  #ubiq:hover .reveal-photo {  
+		max-height: 500px;
+		
+		/* -webkit-animation: fadeIn .75s;
+		animation: fadeIn .75s; */
+		/* visibility: visible; */
+		/* opacity: 1; */
+		
+	}
 	}
 	
