@@ -2,6 +2,7 @@
 
 html{
 	font-size: 12pt;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -14,8 +15,14 @@ body{
 }
 
 .container-fluid{
-	padding: 15px;
+	padding:  0 15px;
+	/* scroll-behavior: smooth;  */
 	
+}
+
+
+a:hover{
+	text-decoration: none;
 }
 
 /* --------------- text-styling -------------------------------------------- */
@@ -150,6 +157,7 @@ margin-bottom:0;
 
 .hero-section{
 	background-image: url("../img/home-hero-test.svg");
+	transition: border-radius .2s ease-in;
 	border-radius:25px;
 }
 
@@ -272,7 +280,7 @@ margin-bottom:0;
 	  
 	.label{
 		
-		font-size: .75rem;
+		font-size: 1rem;
 		font-family: 'iA-italic';
 		color: #767676;
 		padding: 0;
@@ -381,6 +389,11 @@ margin-bottom:0;
           
 	  }
 
+	  .hero-section:hover {
+		  border-radius: 80px;
+		  cursor:s-resize;
+	  }
+
 
 	  
 	  .reveal-photo{
@@ -420,17 +433,20 @@ margin-bottom:0;
 		  transition: margin-left .5s ease-in, margin-right .5s ease-in ;
 	  }
 
+ 
 	  #ubiq:hover h3{
 		/* font-size: 2.0rem;  */
 		
 	}
+
+
 
 	  #ubiq:hover {
 		  /* border: dashed; */
 		  /* background-color:#E0E0E0; */
 		  border-width: 1px;
 		  padding:40px 50px;
-		  box-shadow:5px 10px 20px #E0E0E0;
+		  box-shadow:5px 10px 50px #bdbdbd;
 	  }
 
 	  #ubiq:hover .reveal-photo {  
