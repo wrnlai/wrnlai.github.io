@@ -86,7 +86,7 @@ h3{
 	font-size: 1.3rem;
 	color: #40424A;
 	margin-bottom:0;
-	transition: font-size 2s ease-in-out;
+	transition: font-size .5s ease-in-out;
 
 }
 
@@ -404,7 +404,7 @@ margin-bottom:0;
 		transition: height 4s; */
 		max-height:0;
 		overflow: hidden;
-		transition: max-height 1s ease-in;
+		transition: max-height .5s ease-in;
 		/* transition: all 2s ease-out; */
 	  }
 
@@ -420,7 +420,7 @@ margin-bottom:0;
 
 
 	  #ubiq {
-		  transition: all 2s;
+		  transition: all .5s;
 	  }
 
 	  .col-lg-8{
