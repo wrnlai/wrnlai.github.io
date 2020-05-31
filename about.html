@@ -10,95 +10,198 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/styles/home.css">
 
 		<title>About</title>
-		<link rel="shortcut icon" href="assets/icons/W.ico">
+		<link rel="shortcut icon" href="assets/icons/w filled.ico">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+						<!-- inputting jquery? -->
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+		<script src="jquery-3.4.1.min.js"></script>
+
+		<!-- ANIMATE.CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
 
 	</head>
 	<body>
 
-		<!-- <nav>
-			<div class="menu">
-				<p class="button" id="header-button">Projects</p>
-				<p class="button" id="header-button">Other Works</p>
-				<p class="button" id="header-button">About</p>
-			</div>
-			
-		</nav> -->
 		<div class= "container-fluid">
-			<nav class="navbar navbar-expand-lg navbar-light " style="
-			padding: .5rem 0rem;">
-					<a class="navbar-brand" href="index.html">
-							<img src="assets/img/W.png" style="
-							max-height: 4rem;
-						">
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-						<div class="navbar-nav">
-						<a class="header-3 nav-item nav-link" href="projects.html">Projects</a>
-						<a class="header-3 nav-item nav-link" href="about.html">About</a>
-						<a class="header-3 nav-item nav-link" href="in-the-lab.html">In the Lab</a>
-						</div>
-					</div>
-			</nav>					
+			<div id="navbar-holder">
+
+			</div>	
+			<script src="//code.jquery.com/jquery.min.js">
+			</script>
+			<script>
+			$.get("navbar.html", function(data){
+				$("#navbar-holder").replaceWith(data);
+			});
+			</script>
+			
+
 			<div class="about">
 				<div class=row>
-					<div class="col-12 col-md-5 col-lg-5 my-auto">
-						<img class="img-fluid" src="assets/img/myself2.gif" style="
+
+					<div class="col-12 col-md-5 col-lg-4  my-auto">
+						<img class="img-fluid about-picture" src="assets/img/myself2.gif" style="
 						margin-bottom: 3rem;
 					">
-						<a class="header-3" href="assets/resume.pdf">⎙ Resume</a>
+
+						<a href="assets/resume.pdf">
+							<div class="button">
+								<h4>⎙ Resume</h4>
+							</div>
+						</a>
 					</div>
-
-					<div class="col-12 col-lg-6 offset-lg-1" style="
-					margin-top: 2rem;
-				">
-						<p class=body>
-								I am a fourth-year at the University of California, 
-								Berkeley studying data science and design innovation. 
-								Unlike many people in my field, I didn’t immediately 
-								start studying design in school. Prior to my junior year,
-								 I was studying Biology, with the intention of working 
-								 in healthcare. In addition, I was heavily invested in 
-								 teaching and research in different communities in the Bay Area. 
-								 Although I had no experience designing, I was driven to learn 
-								 as much as possible about human-centered-design through various clubs 
-								 and electives at Cal. 
-
-						</p>
+					<div class="col-12 col-lg-8 about-text animate__animated animate__fadeIn" >
+						
+						<h3>
+							I design digital products that transform conceptual ideas to tangible experiences. 
+						</h3>
 						<br>
-				
-						<p class="body">
-								Fast forward two years and I’ve found a passion for  all things
-								 related to design. Design lends an opportunity for me to impact 
-								 positive change to individuals, creatively and visually. My experiences 
-								 working in healthcare and education allow me to create with empathy, 
-								 and my background in data science allows me to impact change that is 
-								 tangible and data-informed. 
+
+						<p class="about-body">
+							I’m fascinated by the nuance and subtlties  that go into designing for human use.
+							 Design is my driver to understand one another more complexly and to embed intention 
+							 into the tools that go out into the wild for use. 
 						</p>
 						<br>
 		
-						<p class="body">
-								When I’m not designing, I’m reading about artists and designers ranging 
-								from all disciplines or fabricating different items in the Jacobs Makerspace. 
-								I love making things with my hands and transforming them. 
+						<p  class="about-body">
+							My design process is inherently shaped by the multidisciplinary education I received at Berkeley. Have studied in courses in computer science, urban/architectural design, and information, I am adept at working from different schools of thought, finding opportunities to reshape the way I design technology and encompassing wider perspecitves in my design decisions.
 						</p>
 						<br>
 
-						<p class="body">
-								I’m set to graduate May of 2020 and I am currently seeking full-time roles
-								 designing for empowering experiences. Let me know if you’d like to chat!
+						<p class="about-body">
+							I have a soft spot for quirky / abstract interfaces, fashion, and chairs. Occasionally, I’m found geeking out about human computing and interaction mediums. It’s all here. 
 						</p>
 				
 						
 						
 
 					</div>
+
+
 				</div>
+
+				<div class="skills">
+					<div class="row">
+						<div class="button" id="skills" style="background-color: #6FCF97;">
+							<p>VISUAL DESIGN 🎨</p>
+						</div>
+						<div class="button" id="skills" >
+							<p>Figma / Sketch</p>
+						</div>
+						<div class="button" id="skills" >
+							<p>Origami</p>
+						</div>
+						<div class="button" id="skills" >
+							<p>Illustrator</p>
+						</div>
+						<div class="button" id="skills">
+							<p>Photoshop</p>
+						</div>
+						<div class="button" id="skills">
+							<p>Premiere Pro</p>
+						</div>
+
+					</div>
+					<div class="row">
+						<div class="button" id="skills"  style="background-color: #85B6E2;">
+							<p>DEVELOPMENT 💻</p>
+						</div>
+						<div class="button" id="skills">
+							<p>HTML5 / CSS</p>
+						</div>
+						<div class="button" id="skills">
+							<p>Javascript</p>
+						</div>
+						<div class="button" id="skills">
+							<p>p5.js</p>
+						</div>
+						<div class="button" id="skills">
+							<p>python</p>
+						</div>
+
+
+					</div>
+					<div class="row">
+						<div class="button" id="skills"  style="background-color: #E49365">
+							<p> USER RESEARCH 🗣</p>
+						</div>
+						<div class="button" id="skills">
+							<p>User Interviews</p>
+						</div>
+						<div class="button" id="skills">
+							<p>Data Visualization</p>
+						</div>
+						<div class="button" id="skills">
+							<p>Usability Testing</p>
+						</div>
+	
+					</div>
+					<div class="row">
+						<div class="button" id="skills"  style="background-color: #F1ABCD">
+							<p> UNLABELED OTHER SKILLS </p>
+						</div>
+						<div class="button" id="skills">
+							<p>Laser Cutting</p>
+						</div>
+						<div class="button" id="skills">
+							<p>Arduino</p>
+						</div>
+						<div class="button" id="skills">
+							<p>Woodwork</p>
+						</div>
+						<div class="button" id="skills">
+							<p>Speculative Design</p>
+						</div>
+	
+					</div>
+
+
+				</div>
+			</div>
+			<div class="footer d-flex flex-row justify-content-between align-items-end under-construction ">
+				
+				<div class="d-flex flex-row ">
+					<a class="" href="#">
+						<div class="button">
+							<h4>Email</h4>
+						</div>
+					</a>
+					<a class="" href="#">
+						<div class="button" >
+							<h4>Are.na</h4>
+						</div>
+					</a>
+					<a class="" href="#">
+						<div class="button" >
+							<h4>Twitter</h4>
+						</div>
+					</a>
+					<a class="" href="#">
+						<div class="button" >
+							<h4>Instagram</h4>
+						</div>
+					</a>
+					<a class="" href="#">
+						<div class="button" >
+							<h4>Spotify</h4>
+						</div>
+					</a>
+	
+				</div>
+	
+				<div class="text-right">
+					<h4 style="color:#828282;"> ⓒ 2020 WARREN</h3>
+					<h4 style="color:#828282;"> Last Update: 5-29-2020 12:30PM PST</h4>
+					<!-- <p> what else do i put here lol</p> -->
+				</div>
+	
+	
+			</div>
 
 		</div>	
 			
