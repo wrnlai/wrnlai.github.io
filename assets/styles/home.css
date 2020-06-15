@@ -167,6 +167,22 @@ margin-bottom:0;
 	border-radius:25px;
 }
 
+#ubiq{
+	background-color:#6D7494;
+}
+
+#mayv{
+	background-color: #E5CEAD;
+}
+
+#predictev{
+	background-color: #9A9A9A;
+}
+
+#louvre{
+	background-color: #799E9C;
+}
+
 .highlight{
     padding:16px;
     border-radius:10px;
@@ -184,8 +200,15 @@ margin-bottom:0;
 
 .project-section{
 	/* margin-top:100px; */
-	padding:40px 50px;
-	border-radius:16px;
+	padding: 80px;
+	border-radius:25px;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.project-spacing{
+	margin-bottom: 24px;
 }
 .project-photo{
 	padding: 24px;
@@ -193,6 +216,11 @@ margin-bottom:0;
 .project{
 	margin-top: 150px;
 	margin-bottom:200px;
+	padding: 0 200px 0 150px ;
+}
+
+.description{
+	padding-left: 50px;
 }
 
 .under-construction {
@@ -416,9 +444,9 @@ margin-bottom:0;
   		/* opacity: 0; */
 		/* -webkit-transition: height 4s;
 		transition: height 4s; */
-		max-height:0;
+		opacity:0;
 		overflow: hidden;
-		transition: max-height .5s ease-in;
+		transition: .5s ease-in;
 		/* transition: all 2s ease-out; */
 	  }
 
@@ -436,46 +464,61 @@ margin-bottom:0;
 
 
 
-	  #ubiq {
+	  .hover {
 		  transition: all .5s;
+		  position:relative;
+		  -moz-box-sizing: border-box; 
+		  -webkit-box-sizing: border-box; 
+		   box-sizing: border-box; 
 	  }
 
 	  .col-lg-8{
 		transition: margin-left .5s ease-in, margin-right .5s ease-in ;
 	  }
 
-	  #ubiq:hover .col-lg-8{
+	  .hover{
+		
+	  }
+
+	  .hover:hover .col-lg-8{
 		  /* margin-left:0;
 		  margin-right:0; */
 		  transition: margin-left .5s ease-in, margin-right .5s ease-in ;
 	  }
 
  
-	  #ubiq:hover h3{
+	  .hover:hover h3{
 		/* font-size: 2.0rem;  */
 		
 	}
 
 
 
-	  #ubiq:hover {
+
+
+	  .hover:hover  {
 		  /* border: dashed; */
 		  /* background-color:#E0E0E0; */
+		  
 		  border-width: 1px;
-		  padding:40px 50px;
+		  padding: 80 50px;
 		  box-shadow:5px 10px 50px #bdbdbd;
+		  border-radius:50px;
+		/* background-color:#6D7494; */
+		}
 	  }
 
-	  #ubiq:hover .reveal-photo {  
-		max-height: 500px;
+	  .hover:hover + .reveal-photo {  
+		opacity: 1;
 		
 		/* -webkit-animation: fadeIn .75s;
 		animation: fadeIn .75s; */
 		/* visibility: visible; */
 		/* opacity: 1; */
 		
-		
 	}
+
+
 
 		.footer{
 			/* background-color:#EAEAEA; */
