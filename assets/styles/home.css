@@ -128,7 +128,7 @@ margin-bottom:0;
 .label{
     font-family: 'iA-italic';
 	font-weight:400;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	/* color: #5E70B1; */
 	/* letter-spacing: 1; */
 	margin-bottom:0;
@@ -216,7 +216,7 @@ margin-bottom:0;
 .project{
 	margin-top: 150px;
 	margin-bottom:200px;
-	padding: 0 200px 0 150px ;
+	padding: 0 200px 0 200px ;
 }
 
 .description{
@@ -319,7 +319,7 @@ margin-bottom:0;
 	  
 	.label{
 		
-		font-size: 1rem;
+		font-size: .85rem;
 		font-family: 'iA-italic';
 		color: #767676;
 		padding: 0;
@@ -390,7 +390,7 @@ margin-bottom:0;
 	  h3{
 		  font-family: 'Suisse-Medium';
 		  font-weight: 100;
-		  font-size: 1.6rem;
+		  font-size: 2.5rem;
 
 	  }
 	
