@@ -16,6 +16,7 @@ body{
 
 .container-fluid{
 	padding: 0;
+	max-width:1280px;
 	
 }
 
@@ -76,7 +77,7 @@ h3{
 	font-family: 'Suisse-Medium';
 	font-weight: 400;
 	font-size: 1.3rem;
-	color: #40424A
+	color: #40424A;
 	/* margin-bottom:10px; */
 }
 
@@ -110,9 +111,16 @@ padding-bottom: 25px;
 }
 
 .overline#louvre{
-	color: #219653
+	color: #219653;
 }
-  
+
+.overline#mayv{
+	color:#CC6117;
+}
+/* #mayv{
+	color:#CC6117;
+}   */
+
 .label{
 	
 	font-size: .7rem;
@@ -169,9 +177,17 @@ ol li{
 	
 }
 
+.features{
+	background-color:FAF2E3;
+	
+}
 .title-slide#ubiq{ 
 	background-color: #535C7A;
 }
+.title-slide#mayv{ 
+	background-color: #E5CEAD;
+}
+
 
 .title-slide#louvre{
 	background-color: #799E9C;
@@ -198,7 +214,12 @@ ol li{
 
 .title-img{
 	margin-bottom:20px;
-	background-color: #535C7A;
+	/* background-color: #535C7A; */
+} 
+
+.title-img#mayv{
+	margin-bottom:20px;
+	background-color: #E5CEAD;
 } 
 
 .title-img#predictev{
@@ -305,6 +326,37 @@ hr {
 .nav-button:hover #next {
 	filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(269deg) brightness(103%) contrast(102%);
 
+}
+
+
+.button{
+	padding: 6px 16px; 
+	margin: 0 8px 8px 0;
+	border-radius:50px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #40424A;
+	width: fit-content;
+	transition: all .5s ease;
+
+
+}
+
+.pressed{
+	background-color: #CC6117;
+
+}
+
+.pressed p{
+	color: #f2f2f2;
+}
+
+.button:hover{
+	background-color: #CC6117;
+  
+}
+.button:hover h4{
+	color: #f2f2f2;
 }
 
 
@@ -642,6 +694,10 @@ hr {
 	padding: 0 80px;
 		
 }
+#desired-features{
+	padding: 0px 240px;
+		
+}
 .carousel-spacing{
 	padding: 0 170px;
 }
@@ -680,6 +736,17 @@ hr {
 		/* height: 100%; */
 		border-bottom: none;
 	}
+
+	.feature-panel{
+		height:fit-content;
+		border-radius: 0px;
+		padding:  35px;
+		color: white;
+		
+		margin-top: 0;
+		/* height: 100%; */
+		border-bottom: none;
+	}
 	
 	#ubiq.title-card{
 		background-color: #F2F2F2;
@@ -699,6 +766,19 @@ hr {
 		padding: 15px;
 		height: 100%;
 	} 
+
+	.feature-display{
+		padding: 130px;
+		margin-bottom:0;
+		/* padding: 15px; */
+		background-color: #E5CEAD;
+		min-height: 100vh;
+		/* height: 100%; */
+	}
+
+	#mayv.title-img{
+		padding:150px;
+	}
 
 
 
@@ -736,7 +816,7 @@ hr {
 		  font-family: 'Suisse-Medium';
 		  font-weight: 100;
 		  font-size: 1.8rem;
-		  color: #000000;	
+		  color: #40424A;
 	  }
 	
 	  h4{
