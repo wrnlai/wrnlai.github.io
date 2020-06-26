@@ -93,6 +93,7 @@ h3{
 }
 
 h4{
+	font-family:'Suisse-Regular';
 	font-size:1.2rem;
 	margin-bottom:0;
 	color: #40424A;
@@ -100,6 +101,9 @@ h4{
 
 .button h4{
 	font-size: 1.0rem;
+	margin-bottom:0;
+	color: #40424A;
+	font-family:'Suisse-Regular';
 }
 
 h5{
@@ -159,6 +163,10 @@ margin-bottom:0;
 
 
 /* --------------------------------ELEMENT STYLING------------------------  */
+.navbar{
+	padding: .8rem 0rem;
+}
+
 .circle-button{
     width: 125px;
     height:125px;

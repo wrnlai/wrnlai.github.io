@@ -20,6 +20,12 @@ body{
 	
 }
 
+a:hover {
+	/* color: blue; */
+	text-decoration: none; /* no underline */
+	
+  }
+
 /* --------------- text-styling -------------------------------------------- */
 
 @font-face {
@@ -79,6 +85,13 @@ h3{
 	font-size: 1.3rem;
 	color: #40424A;
 	/* margin-bottom:10px; */
+}
+
+.button h4{
+	font-size: 1.0rem;
+	margin-bottom:0;
+	color: #40424A;
+	font-family:'Suisse-Regular';
 }
 
 h5{
@@ -167,6 +180,13 @@ ol li{
 	
 }
 
+/* ------------------------------Navbar ------------------------------------------------------------ */
+
+.navbar{
+	padding: .8rem;
+	position: absolute;
+    z-index: 2;
+}
 /* ------------------------------Intro-Writeup Styling ------------------------------------------------------------ */
 
 .title-slide{
@@ -351,10 +371,16 @@ hr {
 	color: #f2f2f2;
 }
 
-.button:hover{
+#mayv.button:hover{
 	background-color: #CC6117;
   
 }
+
+.button:hover{
+	background-color: #828282;
+  
+}
+
 .button:hover h4{
 	color: #f2f2f2;
 }
@@ -562,6 +588,13 @@ hr {
 		/* margin-bottom:10px; */
 	}
 	
+	.button h4{
+		font-size: 1.2rem;
+		margin-bottom:0;
+		color: #40424A;
+		font-family:'Suisse-Regular';
+	}
+	
 	
 	p{
 	font-family: 'Suisse-Regular';
@@ -711,6 +744,13 @@ hr {
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width:992px) { 
+
+
+	.navbar{
+		padding: .8rem 55px;
+		position: absolute;
+		z-index: 2;
+	}
 
 	/* -----------Intro-Writeup Styling ---------------------------------------------------------------------------------------- */
 	.title-slide{

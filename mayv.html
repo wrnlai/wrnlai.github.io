@@ -34,6 +34,16 @@
 	</head>
 
 	<body>
+		<div id="navbar-holder">
+
+		</div>	
+		<script src="//code.jquery.com/jquery.min.js">
+		</script>
+		<script>
+		$.get("navbar.html", function(data){
+			$("#navbar-holder").replaceWith(data);
+		});
+		</script>
 		<!-------------------- DESKTOP HEADER ------------------------>
 
 <div class="row title-slide section d-none d-lg-flex">
