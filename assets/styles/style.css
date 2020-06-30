@@ -111,6 +111,15 @@ padding-bottom: 25px;
 
 }
 
+.button p{
+	padding-bottom:0;
+}
+
+.pressed{
+	background-color: #CC6117;
+
+}
+
 
 .overline {
 	font-family: 'iA-italic';
@@ -130,9 +139,11 @@ padding-bottom: 25px;
 .overline#mayv{
 	color:#CC6117;
 }
-/* #mayv{
-	color:#CC6117;
-}   */
+
+.overline#ubiq{
+	color: 
+}
+
 
 .label{
 	
@@ -196,9 +207,21 @@ ol li{
 	
 	
 }
+.feature-display{
+	background-color: #E5CEAD;
+	padding: 30px;
+}
+
+.feature-panel{
+	padding:30px 15px;
+}
 
 .features{
-	background-color:FAF2E3;
+	/* background-color:FAF2E3; */
+	border-bottom: solid;
+	border-width: 1px;
+	/* padding:30px; */
+
 	
 }
 .title-slide#ubiq{ 
@@ -237,6 +260,10 @@ ol li{
 	/* background-color: #535C7A; */
 } 
 
+.title-img#ubiq{
+	background-color: #535C7A;
+}
+
 .title-img#mayv{
 	margin-bottom:20px;
 	background-color: #E5CEAD;
@@ -248,6 +275,12 @@ ol li{
 
 .title-img#louvre{
 	background-color: #799E9C;
+}
+
+.title-img#archive{
+	/* border-left-style: solid; */
+	/* border-width: 1px; */
+	height: fit-content;
 }
 
 #ubiq.title-card{
@@ -362,10 +395,7 @@ hr {
 
 }
 
-.pressed{
-	background-color: #CC6117;
 
-}
 
 .pressed p{
 	color: #f2f2f2;
@@ -631,6 +661,10 @@ hr {
 	.overline#louvre{
 		color: #219653
 	}
+
+	.overline#ubiq{
+		color: #5E70B1;
+	}
 	  
 	.label{
 		
@@ -694,7 +728,7 @@ hr {
 .title-img{
 	margin-bottom:20px;
 	padding: 75px;
-	background-color: #535C7A;
+	/* background-color: #535C7A; */
 	
 } 
 
@@ -733,6 +767,11 @@ hr {
 }
 .carousel-spacing{
 	padding: 0 170px;
+}
+.carousel-photo{
+	width: auto;
+	height: 225px;
+	max-height: 225px;
 }
 
 
@@ -780,7 +819,7 @@ hr {
 	.feature-panel{
 		height:fit-content;
 		border-radius: 0px;
-		padding:  35px;
+		padding:  55px;
 		color: white;
 		
 		margin-top: 0;

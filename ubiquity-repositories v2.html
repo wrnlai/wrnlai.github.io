@@ -23,7 +23,14 @@
 		<!-- <link rel="stylesheet"  href="assets/styles/animate.css"> -->
 
 		<title>Ubiquity Repositories</title>
-		<link rel="shortcut icon" href="assets/icons/W.ico">
+		<link rel="shortcut icon" href="assets/icons/w filled.ico">
+
+						<!-- inputting jquery? -->
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+		<script src="jquery-3.4.1.min.js"></script>
+
+		<!-- ANIMATE.CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 	</head>
 
 	<body>
@@ -39,7 +46,7 @@
 		});
 		</script>
 		<div class="row title-slide section d-none d-lg-flex">
-			<div class="col-5 title-card" id="ubiq" style="align-self: center;">
+			<div class="col-5 title-card animate__animated animate__fadeIn" id="ubiq" style="align-self: center;">
 		
 					<div class="col-12 " style="padding:0;" >
 			
@@ -65,8 +72,8 @@
 		
 		
 			</div>
-			<div class="col-7 title-img d-flex justify-content-center" id="ubiq" style="margin:0;">
-				<img class="img-fluid align-self-center" id="predictev-hero" src="assets/img/ubiquity-repositories-v2/Hero Image.png">	
+			<div class="col-7 title-img d-flex justify-content-center " id="ubiq" style="margin:0;">
+				<img class="img-fluid align-self-center animate__animated animate__fadeIn" id="predictev-hero" src="assets/img/ubiquity-repositories-v2/Hero Image.png">	
 		
 			</div>
 		</div>
@@ -172,7 +179,7 @@
 
 	<div class=" overall-spacing col-12 col-md-12  col-lg-12  d-flex flex-column justify-content-center section  ">
 
-		<p class="overline" id="predictev" style="
+		<p class="overline" id="ubiq" style="
 
 			padding-left: 30px;">
 				Overview
@@ -196,9 +203,9 @@
 				<div class="section" style="overflow:hidden;
 				">
 					<div class="row  "  >
-						<div class=" col-12 col-md-12 col-lg-6 order-first order-lg-first" id="custom-ubiq-1" >
-							<p class="overline">
-								PROJECT OVERVIEW
+						<div class=" col-12 col-md-12 col-lg-6 order-first order-lg-first " id="custom-ubiq-1" >
+							<p class="overline" id="ubiq">
+								Project Overview
 							</p>
 							<h1>
 								An academic repository that 
@@ -245,9 +252,7 @@
 							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/Final Screen 4.png" >
 						</div>
 						<div class="col-12" style="margin-top: 3rem;">
-							<p style="font-size: 11pt;
-							color: #818181;
-							padding: 0;">exhibit 1</p>
+							<p class="overline" id="ubiq">exhibit 1</p>
 							<p>a brief survey of finalized interface mockups. </p>
 						</div>
 					</div>
@@ -255,7 +260,7 @@
 
 				<div class="section overall-spacing" >
 					<div class="col-12 " style="padding:0;">
-						<p class="overline"> NEEDFINDING</p>
+						<p class="overline" id="ubiq"> Needfinding</p>
 						<h1>Core Insights</h1>
 					</div>
 					<div class="row ">
@@ -271,7 +276,7 @@
 						</div>
 						<div class="col-12 col-lg-10 offset-lg-1" style="padding:0;">
 							<div class="pb_0">
-								<p class="overline">
+								<p class="overline" id="ubiq">
 									i. Communicates ready-to-use experience
 								</p>
 								<p>
@@ -282,7 +287,7 @@
 								</p>
 							</div>
 							<div class="pb_0">
-								<p class="overline">
+								<p class="overline" id="ubiq">
 									ii. Search that feels in control
 								</p>
 								<p>
@@ -291,7 +296,7 @@
 								</p>
 							</div>
 							<div class="pb_0">
-								<p class="overline">
+								<p class="overline" id="ubiq">
 									iii. Convey impact of authors + work
 								</p>
 								<p>
@@ -306,33 +311,31 @@
 					</div>
 				</div>
 
-				<div class="section overall-spacing">
+				<div class=" overall-spacing">
 					<div class="col-12" style="padding: 0;">
-						<p class="overline">USER FLOW DESIGN</p>
+						<p class="overline" id="ubiq">User Flow Design</p>
 						<h1>Incorporating Mental Models</h1>
 					</div>
 					<div class="row" >
 						<div class="col-12 col-lg-12 pb_0" style="padding:0;">
-							<p>Through an extensive competitive analysis and user 
-							interviews with various figures in academia, we learned
-							 about various use cases and their perceptions of current
-							repositories.
+							<p>From our research, we found that most people conceptualized the repository into two functionalities: Search and Browse. 
+								<br>
+								<br>
 
-							Based on our research we 
-							derived three [design goals] that Ubiquity
-							Repositories is based on.
+								While Search was for those with either very specific queries, it was meant for users who wanted to broaden their search from a single point.
 							</p>
 						</div>
-						<div class="col-12 col-lg-12 pt_0">
-							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/Simplified User Flow.png" >
-							<p class="mx_0" id="userflow-caption">  A simplified user flow depicting the two main functionalities we designed for.  </p>
 
-						</div>
 					</div>
+				</div>
+				<div class="col-12 col-lg-12 pt_0 section" id="desired-features">
+					<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/Simplified User Flow.png" >
+					<p class="mx_0" id="userflow-caption">  A simplified user flow depicting the two main functionalities we designed for.  </p>
+
 				</div>
 				<div class=" overall-spacing">
 						<div class="col-12" style="padding: 0;">
-							<p class="overline">A brief glance</p>
+							<p class="overline" id="ubiq">A brief glance</p>
 							<h1>Ideation</h1>
 						</div>
 							<div class="col-12 col-lg-12 pb_1">
@@ -346,12 +349,12 @@
 
 
 					<div class="row section" id="ideation-photos">
-						<div class="col-12 col-lg-6" style="background-color: #D8DFE3;
+						<div class="col-12 col-lg-8 offset-lg-2 " style="background-color: #D8DFE3;
 						">
 							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/lofi sketches.png" >
 						</div>
 
-						<div class="col-12 col-lg-6" style="background-color: #838FBB;">
+						<div class="col-12 col-lg-8 offset-lg-2 " style="background-color: #838FBB;">
 							<img class="img-fluid"  src="assets/img/ubiquity-repositories-v2/midfi frames.png" >
 						</div>
 
@@ -359,7 +362,7 @@
 				
 			<div class=" overall-spacing col-12 col-md-12  col-lg-12  d-flex flex-column justify-content-center section  ">
 
-				<p class="overline" id="predictev" style="
+				<p class="overline" id="ubiq" style="
 		
 					padding-left: 30px;">
 						Overview
@@ -386,7 +389,7 @@
 
 				<div class="row section carousel-spacing" >
 					<div class="col-12 col-lg-4 d-flex flex-column align-items-start " >
-						<p class="overline">HOMEPAGE</p>
+						<p class="overline" id="ubiq">Homepage</p>
 						<h1>Establishing Significance</h1>
 						<div class="pb_1">
 							<p>The homepage proudly showcases the research being done at the university 
@@ -484,7 +487,7 @@
 					</div>
 
 						  <div class="col-12 col-lg-4 d-flex flex-column align-items-start order-first ">
-							<p class="overline">WORKS + AUTHOR</p>
+							<p class="overline" id="ubiq">Works + Author</p>
 							<h1>Clear and Concise</h1>
 							<div class=pb_0>
 								<p>Displays key pieces of information describing the research material. 
@@ -511,7 +514,7 @@
 
 				<div class="row section carousel-spacing" >
 					<div class="col-12 col-lg-4 d-flex flex-column align-items-start ">
-						<p class="overline">SEARCH RESULTS</p>
+						<p class="overline" id="ubiq">Search Results </p>
 						<h1>Discovering Articles Faster</h1>
 						<div class="py_0">
 							<p>Displays research materials and author profiles from the institution. 
