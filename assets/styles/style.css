@@ -110,6 +110,9 @@ color: #40424A;
 padding-bottom: 25px;
 
 }
+b{
+	font-family: 'Suisse-Medium';
+}
 
 .button p{
 	padding-bottom:0;
@@ -219,6 +222,7 @@ ol li{
 .features{
 	/* background-color:FAF2E3; */
 	border-bottom: solid;
+	border-top:solid;
 	border-width: 1px;
 	/* padding:30px; */
 

@@ -46,7 +46,7 @@
 		</script>
 		<!-------------------- DESKTOP HEADER ------------------------>
 
-<div class="row title-slide d-none d-lg-flex">
+<div class="row title-slide d-none d-lg-flex section">
 	<div class="col-5 title-card" id="mayv" style="align-self: center;">
 
 			<div class="col-12 " style="padding:0;" >
@@ -81,7 +81,7 @@
 
 <!-------------------- MOBILE IPAD HEADER ------------------------>
 
-	<div class="row title-slide d-flex d-lg-none " id="mayv">
+	<div class="row title-slide d-flex d-lg-none section" id="mayv">
 		<div class= "col-12  col-lg-7 p_0 title-img d-flex flex-column align-items-center align-self-end" id="mayv">
 			<img class="img-fluid " id="predictev-hero" src="assets/img/mayv/hero.png">	
 		</div>
@@ -232,213 +232,9 @@
 
 	</div> -->
 
-	<div class="row features section ">
-		<div class="col-12 col-lg-5 order-sm-last order-lg-first  feature-panel" id="mayv" style="align-self: center;">
-	
-				<div class="col-12 " style="padding:0;" >
-					<p class="overline" id="mayv">A detailed look at </p>
-					<h3 style=" 
-					line-height: 1;
-					
-					color: #4F4F4F"> All Features </h3>
-	
-				</div>
-				<div class="row">
-					<div class="feature-button button pressed" onclick="present(event,'onboarding')">
-						<p>Onboarding </p>
-					</div>
-					<div class="feature-button button" onclick="present(event,'home')" >
-						<p>Home</p>
-					</div>
-					<div class="feature-button button" onclick="present(event,'my-program')" >
-						<p>My Program</p>
-					</div>
-					<div class="feature-button button" onclick="present(event,'central-info')" >
-						<p>Centralized Information</p>
-					</div>
-					<div class="feature-button button" onclick="present(event,'s-track')">
-						<p>Symptom Tracking</p>
-					</div>
-					<div class="feature-button button" onclick="present(event,'s-log')" >
-						<p>Symptom Logging</p>
-					</div>
-
-				</div>
-	
-	
-		</div>
-		<div class="col-12 col-lg-7 order-first order-lg-last feature-display d-flex justify-content-center" id="mayv" style="margin:0;">
-			<div id="onboarding" class="present-card">
-				<h1 class="mb_0">Onboarding</h1>
-				<img class="mb_0 img-fluid animate__animated animate__fadeIn" src="assets/img/mayv/final prototype/onboarding.png">
-				
-				<p>
-					To help patients get started with the app, they are quickly introduced
-					 to the primary benefits and mission statement of the app. The patient 
-					 also fills out a survey to curate tailor the resources to their symptoms and conditions. 
-				</p>
-			</div>
-			<div id="home" class="present-card animate__animated animate__fadeIn" style="display:none">
-				<h1 class="mb_0">Home</h1>
-				<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/home.png">
-			
-				
-				<p>
-					Quickly access all of the resources Mayv offers.
-					 Displays the patient’s most frequented meditations,
-					  relevant articles to their, and other tools. 
-				</p>
-			</div>
-			<div id="my-program" class="present-card animate__animated animate__fadeIn" style="display:none">
-				<h1 class="mb_0">My Program</h1>
-				<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/my program.png">
-			
-				
-				<p>
-					Houses the core eudcation materials within the app. 
-					Patients can quickly access lessons 
-					from their 13-week program or 
-					tap into meditation exercises. 
-					Each lesson is outlined to set teaching expectations
-					 and a step-by-step walkthrough.
-				</p>
-			</div>
-			<div id="central-info" class="present-card animate__animated animate__fadeIn" style="display:none">
-				<h1 class="mb_0">Discover</h1>
-				<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/discover.png">
-			
-				
-				<p>
-					The app carefully curates information 
-					that is well-documented and credible 
-					for patients to learn more. Patients 
-					can read through surveys, patient stories,
-					 and other articles. 
-				</p>
-			</div>
-			<div id="s-track" class="present-card animate__animated animate__fadeIn" style="display:none">
-				<h1 class="mb_0">Symptom Tracking</h1>
-				<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/symptom tracking.png">
-			
-				
-				<p>
-					Patients can monitor the behavior and progress of their 
-					condition over time. This can be used to help pinpoint 
-					triggers to flareups, and compare the intensity of different
-					 symptoms during their progression. 
-				</p>
-			</div>
-			<div id="s-log" class="present-card animate__animated animate__fadeIn" style="display:none">
-				<h1 class="mb_0" >Symptom Logging</h1>
-				<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/symptom logging.png">
-			
-				
-				<p>
-					Patients can quickly log specific symptoms at any point
-					 in their day. The logs use a combination of likert scales
-					  and multiple choice questions to help patients elaborate
-					   their condition. Patients can also quickly view their past
-						responses to compare and contrast logs. At the end, if
-						 possible, the app will surface relevant articles based
-						  on their symptoms. 
-				</p>
-			</div>
-
-	
-		</div>
-
-	</div>
 
 
 		<div class= "container-fluid">
-			<!-- <nav class="navbar navbar-expand-lg navbar-light project-nav">
-					<a class="navbar-brand" href="index.html">
-							<img src="assets/img/W.png" style="
-							max-height: 4rem;
-						">
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-						<div class="navbar-nav">
-						<a class="header-3 nav-item nav-link" href="projects.html">Projects</a>
-						<a class="header-3 nav-item nav-link" href="about.html">About</a>
-						<a class="header-3 nav-item nav-link" href="in-the-lab.html">In the Lab</a>
-						</div>
-					</div>
-			</nav>	 -->
-
-
-
-	
-
-
-
-	<!-- <div class="row title-slide ">
-		<div class= "col-12  col-lg-7 p_0 title-img d-flex flex-column justify-content-lg-center align-self-end">
-			<img class="img-fluid" src="assets/img/ubiquity-repositories-v2/Hero Image.png">	
-		</div>
-
-		<div class="title-card row col-12 col-md-12 col-lg-5 order-lg-first align-self-end ">
-
-			<div class="col-12 col-md-5 col-lg-12  " style="padding:0;" >
-
-				<h1 style=" 
-				line-height: 1;
-				
-				color: #4F4F4F"> Ubiquity Repositories</h1>
-
-			</div>
-			<div class="col-12 col-md-5 offset-md-1 offset-lg-0 col-lg-12"  style="padding:0;">
-				<p class="label"> Date </p>
-				<p style="
-				color: #4F4F4F;
-				padding:0;
-				"> May '19 - September '19 </p>
-
-				<hr>
-				
-				<p class="label"> Position </p>
-				<p style="
-				color: #4F4F4F;
-				"> Design Intern</p>
-		</div>
-
-		</div>
-	</div> -->
-
-		
-
-				
-	<!-- <div class="section overall-spacing" style="overflow:hidden;
-	">
-
-			<div class=" col-12 col-md-12 col-lg-12 order-first order-lg-first" id="" >
-				<p class="overline" id="mayv">
-					Foreword
-				</p>
-				<h1>
-					My first time leading a design team.
-				</h1>
-
-				<p  class="pb_0" >
-					I was approached by two MBA students and a chaotic Miro board full of hypothetical
-					 user flows, user market analyses, and simple wireframes. With all
-					  of these ideas and no design expertise, they needed a designer, or rather a design team. 
-					  I took charge and spearheaded the beginnings of their design team, eventually heading it as design lead.
-					<br>
-					<br>
-					Our challenge was ambitious: design the interface and experience of the Mayv app within a 15-week semester. 
-					<br><br>
-
-				</p>
-
-
-
-			</div>
-
-		</div> -->
 
 
 			
@@ -508,6 +304,126 @@
 										  we designed their mobile experience to deliver this program to patients.
 				</h2>
 		</div>
+		</div>
+		
+
+		<div class="row features section ">
+			<div class="col-12 col-lg-4 order-sm-last order-lg-first  feature-panel" id="mayv" style="align-self: center;">
+		
+					<div class="col-12 " style="padding:0;" >
+						<p class="overline" id="mayv">A detailed look at </p>
+						<h3 style=" 
+						line-height: 1;
+						
+						color: #4F4F4F"> All Features </h3>
+		
+					</div>
+					<div class="row">
+						<div class="feature-button button pressed" onclick="present(event,'onboarding')">
+							<p>Onboarding </p>
+						</div>
+						<div class="feature-button button" onclick="present(event,'home')" >
+							<p>Home</p>
+						</div>
+						<div class="feature-button button" onclick="present(event,'my-program')" >
+							<p>My Program</p>
+						</div>
+						<div class="feature-button button" onclick="present(event,'central-info')" >
+							<p>Discover</p>
+						</div>
+						<div class="feature-button button" onclick="present(event,'s-track')">
+							<p>Symptom Tracking</p>
+						</div>
+						<div class="feature-button button" onclick="present(event,'s-log')" >
+							<p>Symptom Logging</p>
+						</div>
+	
+					</div>
+		
+		
+			</div>
+			<div class="col-12 col-lg-8 order-first order-lg-last feature-display d-flex justify-content-center" id="mayv" style="margin:0;">
+				<div id="onboarding" class="present-card">
+					<h1 class="mb_0">Onboarding</h1>
+					<img class="mb_0 img-fluid animate__animated animate__fadeIn" src="assets/img/mayv/final prototype/onboarding.png">
+					
+					<p>
+						To help patients get started with the app, they are quickly introduced
+						 to the primary benefits and mission statement of the app. The patient 
+						 also fills out a survey to curate tailor the resources to their symptoms and conditions. 
+					</p>
+				</div>
+				<div id="home" class="present-card animate__animated animate__fadeIn" style="display:none">
+					<h1 class="mb_0">Home</h1>
+					<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/home.png">
+				
+					
+					<p>
+						Quickly access all of the resources Mayv offers.
+						 Displays the patient’s most frequented meditations,
+						  relevant articles to their condition, and other tools. 
+					</p>
+				</div>
+				<div id="my-program" class="present-card animate__animated animate__fadeIn" style="display:none">
+					<h1 class="mb_0">My Program</h1>
+					<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/my program.png">
+				
+					
+					<p>
+						Houses the core education materials within the app. 
+						Patients can quickly access lessons 
+						from their 13-week program or 
+						tap into meditation exercises. 
+						Each lesson is outlined to set teaching expectations
+						 and a step-by-step walkthrough.
+					</p>
+				</div>
+				<div id="central-info" class="present-card animate__animated animate__fadeIn" style="display:none">
+					<h1 class="mb_0">Discover</h1>
+					<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/discover.png">
+				
+					
+					<p>
+						The app carefully curates information 
+						that is well-documented and credible 
+						for patients to learn more. Patients 
+						can read through surveys, patient stories,
+						 and other articles. 
+					</p>
+				</div>
+				<div id="s-track" class="present-card animate__animated animate__fadeIn" style="display:none">
+					<h1 class="mb_0">Symptom Tracking</h1>
+					<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/symptom tracking.png">
+				
+					
+					<p>
+						Patients can monitor the behavior and progress of their 
+						condition over time. This can be used to help pinpoint 
+						triggers to flareups and compare the intensity of different
+						 symptoms during their progression. 
+					</p>
+				</div>
+				<div id="s-log" class="present-card animate__animated animate__fadeIn" style="display:none">
+					<h1 class="mb_0" >Symptom Logging</h1>
+					<img class="mb_0 img-fluid" src="assets/img/mayv/final prototype/symptom logging.png">
+				
+					
+					<p>
+						Patients can quickly log specific symptoms at any point
+						 in their day. The logs use a combination of likert scales
+						  and multiple choice questions to help patients elaborate
+						   their condition. Patients can also quickly view their past
+							responses to compare and contrast logs. At the end, if
+							 possible, the app will surface relevant articles based
+							  on their symptoms. 
+					</p>
+				</div>
+	
+		
+			</div>
+	
+		</div>
+	
 			
 
 
@@ -518,7 +434,7 @@
 
 
 
-
+		<div class="container-fluid">
 
 
 				<div class="section overall-spacing" >
@@ -529,8 +445,9 @@
 
 					<div class="col-12 col-lg-112 pb_0" >
 						<p>
-							Our research sprint spanned 2 weeks, but trickled through the rest of the semester. We wanted to use this time well 
-							and selected methods that were could be feasibly executed while getting a diverse spread of information.
+							Our research sprint spanned 2 weeks, but trickled through the rest of the semester. 
+							We wanted to use this time well and selected methods that could be feasibly
+							 executed while getting a diverse spread of information.
 							<br>
 							<br>
 						
@@ -538,12 +455,10 @@
 					</div>
 
 					<h3 class="mt_1">Literature</h3>
-					<p> We delved into 
-						literature to understand how autoimmune patients cope with 
-						their condition, and how integrative medicine techniques
-						 are assimilated into a patient’s lifestyle. There was also
-						  an handful of literature dedicated to the analysis of 
-						  therapeutic apps. </p>
+					<p> We delved into literature to understand how autoimmune patients
+						 cope with their condition, and how integrative medicine techniques
+						  are assimilated into a patient’s lifestyle. There was also 
+						  a handful of literature dedicated to the analysis of therapeutic apps. </p>
 
 					
 					<ul class="my_0">
@@ -563,21 +478,27 @@
 						</li>
 						<li>
 
-							<p>patients weigh clinical treatments (drugs, surgical procedures) and alternative medicine (physical therapy, massages, acupuncture, CBT, CBD) equally </p>
+							<p>Desinging for mindfulness: “Promote a calm experience by providing a sense of completion and giving users an option to disengage.”</p>
 						</li>
 						
 					</ul>
 
 					<h3 class="mt_1">Competitive Analyses</h3>
-					<p> We also looked into the medical/healthcare apps to examine whether existing products could align with our focus.  </p>
+					<p> We also looked into the medical/healthcare apps and reviews to examine whether existing products could align with our focus.
+					</p>
 					<ul class="my_0">
 						<li>
-							<p>users want to track their growth over time and receive motivation from the application</p>
+							<p>Users want to track their growth over time and receive motivation from the application</p>
 
 						</li>
 						<li>
 							
-							<p>applications that create and form communities promote continued growth and loyalty</p>
+							<p>Virtual pain coaches were widely popular, but had limitations (+ a little creepy). </p>
+ 
+						</li>
+						<li>
+							
+							<p>Many apps had significant experiences dedicated to educating patients on their condition through mini lessons, articles, and surveys. </p>
  
 						</li>
 						<li>
@@ -622,10 +543,7 @@
 
 							<p>patients are skeptical of mindfulness techniques, but are willing to give them a try</p>
 						</li>
-						<li>
 
-							<p>- the disease changes your personality </p>
-						</li>
 					</ul>
 
 
@@ -668,7 +586,7 @@
 								border-left-style: solid;
 								border-color: #BDBDBD;
 								padding-left: 30px;">
-								HMW create a supportive, empathetic, realistic but optimistic environment 
+								How might we create a supportive, empathetic, realistic but optimistic environment 
 								[for patients] that pairs education with community to<mark> guide 
 								chronic pain patients through the ups and downs of their condition? </mark>
 							</h2>
@@ -690,18 +608,24 @@
 						<p>With all of our research findings, I invited our designers and our
 							 client to brainstorm features together. We would be taking 
 							 everything we learned from our competitive analyses, interviews, 
-							 and literature reviews. Together, we came up with as many ideas
-							  as possible without considering feasibility at this stage.
-							   As we progressed, we began grouping into wider commonaltiies
-								such as “education, ad-hoc tools, community, etc.”
+							 and literature reviews.
 						</p>
 						</div>
 
 						
 
 
-						<div class="col-12 col-lg-12" id="desired-features" >
+						<div class="col-12 col-lg-12 mb_0" id="desired-features" >
 							<img class="img-fluid"  src="assets/img/mayv/ideation/desired features.png" >
+						</div>
+						<div class="overall-spacing my_1">
+
+							<p>
+								Together, we came up with as many ideas
+								as possible without considering feasibility at this stage.
+								As we progressed, we began grouping into wider commonaltiies
+								such as “education, ad-hoc tools, community, etc.”
+							</p>
 						</div>
 
 					</div>
@@ -711,11 +635,18 @@
 						<h3>Converging with a problem map</h3>
 							
 
-						<p>To converge on this features we structured our ideation session around a problem map centered around the patient. To begin, we listed the most apparent problems that chronic pain patients faced, and used those to center our features. We also considered other factors such as feasbility, and the value/impact on patients.
+						<p>
+							To converge on these features,<b> we shifted our ideation session around a
+							 problem map centered around the patient.</b> To begin, we listed the most
+							  apparent problems that chronic pain patients faced based on our research, 
+							  and used those as platforms to anchor our features. We also considered other 
+							  factors such as feasibility, and the value/impact on patients.
 
 							<br>
-							 For example, although body pain map tracking seemed to be a great way for patients to track their condition, we felt the interactions and data produced might be too complex for patients to gain insight from. 
-							
+							<br>
+							For example, although body pain map tracking seemed to be a great way for 
+							patients to track their condition, we felt the interactions and data produced
+							 might be too complex for patients to gain insight from.							
 						</p>
 						</div>
 
@@ -781,6 +712,48 @@
 						<img class="img-fluid" id="desired-features" src="assets/img/mayv/initial prototypes.png"> 
 					</div>
 
+					<div class="section">
+						<div class="overall-spacing">
+							<h1>Crafting a design system</h1>
+							<p>
+								Our team worked to create a design system that
+								 could suit mobile experiences, while staying 
+								 in line with the marketing design guidelines. 
+		
+							</p>
+
+							<div class="mt_1">
+								<h3>Typography</h3>
+								<p>The brand solely relied on one typeface and one weight, 
+									Solanel Regular. The font was neo-grotesque with 
+									flawless curves, evoking calm tones. While we were
+									 experimenting with the different sizes, it was difficult
+									  to produce enough contrast to distinguish between
+									   different headers and body fonts. We decided to 
+									   introduce a second weight into the overall design, 
+									   reserving use for headers and buttons.
+								</p>
+
+								<img class="img-fluid my_1" src="assets/img/mayv/design system/Type Guide.png">
+								<img class="img-fluid my_1" src="assets/img/mayv/design system/color.png">
+
+							</div>
+							<div class="mt_1">
+								<h3>Gridding</h3>
+								<p>When designing the gridding, we wanted to create a system that had a 
+									balanced whitespace:content ratio. Going back to our mindfulness principles,
+									 it was important to restrain the amount of content being displayed in one screen. 
+								</p>
+								<img class="img-fluid mt_1" src="assets/img/mayv/design system/gridding.png">
+							</div>
+
+			
+
+
+
+						</div>
+					</div>
+
 					<div class=" section ">
 						<div class="overall-spacing">
 							<h1>Design Iterations</h1>
@@ -790,38 +763,40 @@
 							</p>
 						</div>
 						<div class="mt_1 overall-spacing">
-						<h3>Lesson of the Day</h3>	
-						<p class="mb_1">The lesson of the day element is the key entry points for patients going into their lesson. 
-							It aimed to set a healthy expectation of what a patient should finish today and provide
-							 a metric of progress for motivation. Initially, we experimented with different 
-							 call-to-action styles, and different progress indicators. </p>
+							<h3>Lesson of the Day</h3>	
+							<p class="mb_1">The lesson of the day element is the key entry point for patients going into their lesson. 
+								It aims to set a healthy expectation of what a patient should finish today and provide
+								a metric of progress for motivation. Initially, we experimented with different 
+								call-to-action styles, and different progress indicators. </p>
 						</div>
 						<img class="img-fluid my_0" id="desired-features" src="assets/img/mayv/design iterations/lesson plan.png"> 
 
 						<div class="mt_1 overall-spacing">
-						<p class="mb_1">As we progressed, we grouped the Lesson and Reflection portion of the program into one call-to-action button,
-							 and provided a variety of meditation cards, rather than an ambiguous call-to-action button. 
-							 Language of the lesson button was changed from “Watch” to “Begin” to adapt to both video and audio lessons. </p>
+							<p class="mb_1">As we progressed, we grouped the Lesson and Reflection portion of the program into one call-to-action button,
+								and provided a variety of meditation cards, rather than an ambiguous call-to-action button. 
+								Language of the lesson button was changed from “Watch” to “Begin” to adapt to both video and audio lessons. </p>
 						</div>
 
 						<div class="my_1 overall-spacing">
 							<h3>Education → My Program</h3>	
-							<p class="mb_1">The education section experienced the most change. Initially,
-								 it began as a page with two tabs, splitting education from meditations.
-								  Meditations were separate from the education, but unlocked as the
-								   patient’s progressed through the lessons. A constant critique was
-								    that it was not clear where to find the meditations from the navigation bar.  </p>
-							</div>
-							<img class="img-fluid my_0" id="desired-features" src="assets/img/mayv/design iterations/Education to My Program.png"> 
+							<p class="mb_1"> Initially, the education
+								 began as a page with two tabs, splitting education from meditations.
+								  A constant critique was
+									that it was not clear where to find the meditations from the navigation bar.
+								The use of tabs was also widely inconsistent among the other features in the app. 
+							</p>
+						</div>
+						<img class="img-fluid my_0" id="desired-features" src="assets/img/mayv/design iterations/Education to My Program.png"> 
 	
-							<div class="my_1 overall-spacing">
-							<p class="mb_1">Although we understood this complication, we also did not believe that 
-								meditation was a large enough feature to have its own section on the navigation.
-								 Instead, we decided to rename “Education” into “Your Program” to generalize 
-								 the contents of this section. Furthermore, we got rid of the 2-tab system 
-								 and split the two sections vertically. We were cognizant of reducing screen
-								  real estate, and making sure that both the Lessons and Meditations were visible above the fold of the screen.   </p>
-							</div>
+						<div class="my_1 overall-spacing">
+							<p class="mb_1">Although we accepted this critique, we also did not believe that 
+							meditations was a large-enough feature to have its own section on the navigation.
+								Instead, we decided to rename “Education” into “Your Program” to generalize 
+								the contents of this section. Furthermore, we got rid of the 2-tab system 
+								and split the two sections vertically. We were cognizant of reducing screen
+								real estate, and making sure that both the Lessons and Meditations were visible above the fold of the screen. 
+							</p>
+						</div>
 						
 						<div class="my_1 overall-spacing">
 							<h3>Tweaking the self tracking.</h3>	
@@ -829,16 +804,104 @@
 								long and cumbersome, with no way to select the specific symptoms that a patient
 								 wanted to record on that day. Rather, it would present all of the possible
 								  symptoms in one endlessly scrolling survey.  </p>
-							</div>
-							<img class="img-fluid my_0" id="desired-features" src="assets/img/mayv/design iterations/tweaking self tracking.png"> 
+						</div>
+						<img class="img-fluid my_0" id="desired-features" src="assets/img/mayv/design iterations/tweaking self tracking.png"> 
 
-							<div class="my_1 overall-spacing">
-							<p class="mb_1">To give more intention to the patient, we broke up the self tracking into a 
-								ulti-page approach, beginning with a prompt to select  the symptoms they’d like to record. 
-								Another given benefit of this change was that it introduced more friction into the experience, 
-								giving patients more space to contemplate each symptom, rather than breezing through the form.    </p>
+						<div class="my_1 overall-spacing">
+						<p class="mb_1">To give more intention to the patient, we broke up the self tracking into a 
+							ulti-page approach, beginning with a prompt to select  the symptoms they’d like to record. 
+							Another given benefit of this change was that it introduced more friction into the experience, 
+							giving patients more space to contemplate each symptom, rather than breezing through the form.    </p>
+						</div>
+					</div>
+
+					<div class="section">
+						<div class="overall-spacing">
+							<h1>Looking back at our progress.</h1>
+							<p>
+
+								This was my first time designing a
+								 new product as a design lead. 
+								 In addition to building my skills
+								  in UI/UX design, it also challenged me
+								   to think deeply about team dynamics
+									and the importance of team communication and critique.
+									 It wasn’t easy – there were lots of failures and lessons learned.
+									  But in the end, we pushed through, and I’m thankful for this immense learning opportunity.  
+
+							</p>
+
+							<div class="my_1">
+								<h3>Embracing Uncertainty</h3>
+								<p>
+									Despite having run through the human-centered design process a 
+									couple of times now, I realize that the process is much messier, 
+									especially regarding design in a start-up environment. 
+									This uncertainty taught us the importance of placing 
+									intentionality in the methods that we used, and to 
+									constantly reflect on the effectiveness of our processes. 
+								</p>
+
+							</div>
+
+							<div class="my_1">
+								<h3>Client Communication</h3>
+								<p>
+									As I began to learn the product inside and out, I found myself bringing forward meaningful
+									 conversations that challenged the clients to think about the experience differently. 
+									 In many cases, the key point is being able to show how your design decisions translate
+									  into the bigger picture of the product. 
+								</p>
+
+							</div>
+
+							<div class="my_1">
+								<h3>Team Communication</h3>
+								<p>
+									I have learned that great designers are not only good at design itself; 
+									they’re also people who can influence others, who can help others on the 
+									team achieve their goals. Throughout this project, I practiced to
+									 provide criticism constructively and clearly. 
+									 As this project comes to a close, communication is one of the skills that I will continually work on improving. 
+								</p>
+
 							</div>
 						</div>
+
+					</div>
+
+					<div class="section">
+						<div class="overall-spacing">
+							<h1>As expected, there were a fair number of failures too...</h1>
+
+							<div class="my_1">
+								<h3>Timing</h3>
+								<p>
+									Much of it came down to timing when scoping out this project.
+									 With only 15 weeks, I’d thought we’d be able to run an end to
+									  end design project. We barely finished prototyping. 
+									  User testing was pushed to be done in the Summer after the semester ended.
+								</p>
+							</div>
+
+							<div class="my_1">
+								<h3>Tracing back our steps</h3>
+								<p>
+									In our process, I overlooked some design decisions, which came back to bite us in the ass. 
+									(e.g typography and style guide was not clearly set before going into hi-fi) 
+									(e.g health tracking/ symptom logging’s user flow was not developed enough to be prototyped. 
+									We realized there were a plethora of complex use cases that had not been addressed, but were too constrained on time / too far in build it through.)
+									
+									<br>
+									<br>
+
+									Some of of these failures can be traced to time constraints, no doubt. However, if I had to do it again, I’d allocate some meetings to reflecting on our progress so far, and analyzing areas that were glossed over and adapting our process together. 
+
+								</p>
+							</div>
+
+						</div>
+					</div>
 	
 
 
