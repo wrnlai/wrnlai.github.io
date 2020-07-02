@@ -201,7 +201,7 @@ margin-bottom:0;
 
 .hero-section{
 	background-image: url("../img/home-hero-test.svg");
-	transition: border-radius .2s ease-in;
+	transition: all .2s ease-in;
 	border-radius:25px;
 }
 
@@ -279,6 +279,26 @@ margin-bottom:0;
 .under-construction {
 	cursor: url('../under-construction-med.svg'), auto !important;
 	
+}
+
+/* ------------------------ animation ------------------------------- */
+
+.an_1{
+	/* --animate-duration: 800ms; */
+	--animate-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+
+}
+
+.an_2{
+	/* --animate-duration: 800ms; */
+	--animate-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.an_3{
+	/* --animate-duration: 800ms; */
+	--animate-delay: .8s;
+	-webkit-animation-delay: .8s;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
@@ -372,7 +392,7 @@ margin-bottom:0;
 	  
 	.label{
 		
-		font-size: .85rem;
+		font-size: .95rem;
 		font-family: 'iA-italic';
 		color: #767676;
 		padding: 0;
@@ -499,6 +519,7 @@ margin-bottom:0;
 	  .hero-section:hover {
 		  border-radius: 80px;
 		  cursor:s-resize;
+		  box-shadow: 5px 10px 50px #bdbdbd;
 	  }
 	  
 

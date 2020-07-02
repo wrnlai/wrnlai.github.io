@@ -427,6 +427,25 @@ hr {
 	border-radius: 5px;
 }
 
+/* ------------------------ animation ------------------------------- */
+
+.an_1{
+	/* --animate-duration: 800ms; */
+	--animate-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+
+}
+
+.an_2{
+	/* --animate-duration: 800ms; */
+	--animate-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.an_3{
+	/* --animate-duration: 800ms; */
+	--animate-delay: .8s;
+	-webkit-animation-delay: .8s;
+}
 
 
 /* ------------------------ Spacing ------------------------------- */
