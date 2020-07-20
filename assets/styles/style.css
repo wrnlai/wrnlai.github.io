@@ -215,6 +215,8 @@ ol li{
 .feature-display{
 	background-color: #E5CEAD;
 	padding: 30px;
+	height: 550px;
+	align-items: center;
 }
 
 .feature-panel{
@@ -790,6 +792,12 @@ hr {
 #desired-features{
 	padding: 0px 240px;
 		
+}
+
+.feature-display{
+	height: 800px;
+	padding: 100px;
+	align-items: center;
 }
 .carousel-spacing{
 	padding: 0 170px;
