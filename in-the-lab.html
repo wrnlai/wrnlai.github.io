@@ -9,7 +9,7 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/styles/home.css">
 		
 
 		<title>In the Lab</title>
@@ -29,27 +29,22 @@
 	</head>
 
 	<body>
+
 		<div class= "container-fluid">
-			<nav class="navbar navbar-expand-lg navbar-light " style="
-			padding: .5rem 0rem;">
-					<a class="navbar-brand" href="index.html">
-							<img src="assets/img/W.png" style="
-							max-height: 4rem;
-						">
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-						<div class="navbar-nav">
-						<a class="header-3 nav-item nav-link" href="projects.html">Projects</a>
-						<a class="header-3 nav-item nav-link" href="about.html">About</a>
-						<a class="header-3 nav-item nav-link" href="in-the-lab.html">In the Lab</a>
-						</div>
-					</div>
-            </nav>
+			<div id="navbar-holder">
+
+			</div>	
+			<script src="//code.jquery.com/jquery.min.js">
+			</script>
+			<script>
+			$.get("navbar.html", function(data){
+				$("#navbar-holder").replaceWith(data);
+			});
+			</script>
 			
-			<div class="main">
+
+			
+			<div class="about">
 			<div class="col-12" style="
 			padding: 0 0 10rem 0;
 		">
@@ -60,8 +55,17 @@
 			<hr>
 
             <div class="row">
+				<div class="col-12">
+					<iframe style="width: 800px; height: 400px; overflow: hidden;"  scrolling="no" frameborder="0" scrolling="no" frameborder="0" src="https://editor.p5js.org/wrnlai/embed/ZIuvAjZea"></iframe>
+s
 
-				<div class="col-4 hover-test">
+				</div>
+
+
+
+
+
+				<!-- <div class="col-4 hover-test">
 						<img class="img-fluid" src="assets/img/graphics/distorto@300x-100.jpg">
 						<p class="subtitle"> distorto@300x-100.jpg </p>
 					</div>
@@ -88,7 +92,7 @@
 						<div class="col-4 hover-test">
 								<img class="img-fluid" src="assets/img/graphics/shark cove.jpg">
 								<p class="subtitle"> shark_cove.jpg </p>
-							</div>
+							</div> -->
 
 
 
