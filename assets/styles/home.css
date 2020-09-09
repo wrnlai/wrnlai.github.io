@@ -266,6 +266,11 @@ margin-bottom:0;
 	padding: 15px 0px;
 }
 
+.about-text{
+	padding-left:0;
+	
+}
+
 .about-picture{
 	border-radius: 15px;
 	/* padding: 80px; */

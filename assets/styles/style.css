@@ -165,8 +165,7 @@ mark{
 	background-radius: 5px;
 
 }
-
-.project-nav{
+t.project-nav{
 	/* margin-top: 2rem;
 	margin-bottom: 40px; */
 	text-align: right;
@@ -381,21 +380,26 @@ hr {
     width: 30px;
 	height: 30px;
 	/* outline-style: solid; */
-	/* background-color: #5E70B1; */
-	/* outline-color: grey; */
+	background-color: #F2F2F2;
+		/* outline-color: grey; */
 	/* background-color: grey; */
-	box-shadow: 0 0 2px #3c3c3c;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	/* box-shadow: 0 0 2px #000000; */
 	transition: background-color .5s;
 	transition-timing-function: ease-in-out;
 }
 .nav-icon{
 	padding: 7px;
+	transition: .5s;
 }
+
 
 
 #next #prev{
 	filter: invert(23%) sepia(3%) saturate(30%) hue-rotate(314deg) brightness(95%) contrast(94%);
-	transition: background-color .5s;
+	transition: background-color .25s;
 	transition-timing-function: ease-in-out;
 	
 }
@@ -405,7 +409,7 @@ hr {
 	background-color: #3c3c3c;
 	
 }
-.nav-button:hover #prev {
+.nav-button:hover .nav-icon {
 	filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(269deg) brightness(103%) contrast(102%);
 
 }
@@ -447,6 +451,36 @@ hr {
 
 .button:hover h4{
 	color: #f2f2f2;
+}
+
+.footer-project{
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left: none;
+	border-right: none;
+	border-width: 1px;
+	height: 150px;
+	padding:0;
+	transition: .5s ease-out;
+}
+
+.footer-project#mayv:hover {
+	background-color: #E5CEAD;
+}
+.footer-project#ubiq:hover {
+	background-color: #D8DFE3;
+
+}
+.footer-project#predictev:hover  {
+	background-color: lightgrey;
+}
+.footer-project#louvre:hover  {
+	background-color: #799E9C;
+
+
+}
+.next-project {
+	margin: -1px 0 0 0;
 }
 
 
@@ -736,7 +770,7 @@ hr {
 	
 	}
 	
-	.project-nav{
+t.project-nav{
 		/* margin-top: 2rem;
 		margin-bottom: 40px; */
 		text-align: right;
@@ -833,6 +867,24 @@ hr {
 	height: 225px;
 	max-height: 225px;
 }
+
+
+.footer-project{
+	border-top-style: solid;
+	border-bottom-style: solid;
+
+	height: 170px;
+	border-left: solid;
+	border-right: solid;
+	border-width: 1px;
+
+}
+
+.next-project {
+	margin: 0 0 0 -1px;
+}
+
+
 
 
 
