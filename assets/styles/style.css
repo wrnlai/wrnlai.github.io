@@ -58,9 +58,34 @@ font-weight: 400;
 	src: url(../fonts/iAWriterDuospace-Regular.otf)
 }
 
+@font-face {
+	font-family: 'Telegraf-Lite';
+	src: url(../fonts/Telegraf/Telegraf-UltraLight.otf)
+}
+
+@font-face {
+	font-family: 'Telegraf-Regular';
+	src: url(../fonts/Telegraf/Telegraf-Regular.otf)
+}
+
+
+@font-face {
+	font-family: 'Telegraf-Bold';
+	src: url(../fonts/Telegraf/Telegraf-Bold.otf)
+
+}
+
+@font-face {
+	font-family: 'Telegraf-UltraBold';
+	src: url(../fonts/Telegraf/Telegraf-UltraBold.otf)
+
+}
+
+
+
 
 h1{
-	font-family: 'Suisse-Medium';
+	font-family: 'Telegraf-UltraBold';
 	font-weight: 400;
 	font-size: 2.0rem;
 	line-height: 2.2rem;
@@ -991,7 +1016,7 @@ t.project-nav{
 	/* ---------------- Text ---------------------------------------- */
 	
 	  h1{
-		  font-family: 'Suisse-Medium';
+		  font-family: 'Telegraf-UltraBold';
 		  font-weight: 400;
 		  font-size: 35pt;
 		  line-height:45px;
@@ -1001,9 +1026,10 @@ t.project-nav{
 	  }
 	  
 	  h2{
-		  font-family: 'Suisse-Regular';
+		  font-family: 'Telegraf-Lite';
 		  font-weight: 400;
 		  font-size: 1.8rem;
+		  line-height: 2.7rem;
 		  /* margin-bottom:10px; */
 	  }
 	  
@@ -1027,11 +1053,18 @@ t.project-nav{
 	  }
 	
 	  p{
-		font-family: 'Suisse-Regular';
-		font-size: 1rem;
+		font-family: 'Telegraf-Regular';
+		font-size: 1.2rem;
 		margin:0;
 		padding-bottom: 0px;
 	
+	  }
+
+	  li {
+		font-family: 'Telegraf-Regular';
+		font-size: 1.2rem;
+		margin:0;
+		padding-bottom: 0px;
 	  }
 
 	  .overline {
