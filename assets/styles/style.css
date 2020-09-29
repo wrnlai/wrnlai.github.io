@@ -16,7 +16,7 @@ body{
 
 .container-fluid{
 	padding: 0;
-	max-width:1280px;
+	/* max-width:1280px; */
 	
 }
 
@@ -840,7 +840,10 @@ t.project-nav{
 }
 
 .overall-spacing{
-	padding: 0 170px;
+	width: 75%;
+	margin-left: auto;
+	margin-right:auto;
+	/* padding: 0 170px; */
 }
 #side-laptop{
 	padding: 0 0 120px 200px;
@@ -1050,7 +1053,10 @@ t.project-nav{
  /* ------------------------ Spacing ------------------------------- */
 
 	.overall-spacing{
-		padding: 0 350px;
+		/* padding: 0 350px; */
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.text-spacing{
