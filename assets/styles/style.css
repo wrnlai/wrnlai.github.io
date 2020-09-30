@@ -203,13 +203,13 @@ t.project-nav{
 
 }
 
-ol li{
+/* ol li{
 
 	font-family: 'Suisse-Regular';
 	font-size: 1rem;
 	color: #40424A;
 
-}
+} */
 
 .section{
 	margin-bottom: 80px;
@@ -1013,6 +1013,11 @@ t.project-nav{
 		padding: 0;
 	}
 
+
+	.callout{
+		margin: 50px 0 ;
+	}
+
 	/* ---------------- Text ---------------------------------------- */
 	
 	  h1{
@@ -1020,13 +1025,14 @@ t.project-nav{
 		  font-weight: 400;
 		  font-size: 35pt;
 		  line-height:45px;
-		  padding-bottom: 15px;
+		  padding-bottom: 45px;
+
 	
 	  
 	  }
 	  
 	  h2{
-		  font-family: 'Telegraf-Lite';
+		  font-family: 'Telegraf-Regular';
 		  font-weight: 400;
 		  font-size: 1.8rem;
 		  line-height: 2.7rem;
@@ -1034,7 +1040,7 @@ t.project-nav{
 	  }
 	  
 	  h3{
-		  font-family: 'Suisse-Medium';
+		  font-family: 'Telegraf-Bold';
 		  font-weight: 100;
 		  font-size: 1.8rem;
 		  color: #40424A;
@@ -1064,7 +1070,8 @@ t.project-nav{
 		font-family: 'Telegraf-Regular';
 		font-size: 1.2rem;
 		margin:0;
-		padding-bottom: 0px;
+		padding-bottom: 30px;
+		
 	  }
 
 	  .overline {
@@ -1110,6 +1117,10 @@ t.project-nav{
 
 	.carousel-spacing{
 		padding: 0 150px;
+	}
+
+	ul, ol {
+		padding: 30 0 0 0;
 	}
 
 
