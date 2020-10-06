@@ -98,16 +98,17 @@ h1{
 }
 
 h2{
-	font-family: 'Suisse-Regular';
+	font-family: 'Telegraf-Regular';
 	font-weight: 400;
 	font-size: 1.3rem;
-	color: #40424A
+	line-height: calc(1.3rem * 1.25);
+	color: #40424A;
 	/* margin-bottom:10px; */
 }
 
 
 h3{
-	font-family: 'Suisse-Medium';
+	font-family: 'Telegraf-Bold';
 	font-weight: 400;
 	font-size: 1.3rem;
 	color: #40424A;
@@ -118,7 +119,7 @@ h3{
 	font-size: 1.0rem;
 	margin-bottom:0;
 	color: #40424A;
-	font-family:'Suisse-Regular';
+	font-family:'Telegraf-Regular';
 }
 
 h5{
@@ -130,7 +131,7 @@ h5{
 
 
 p{
-font-family: 'Suisse-Regular';
+font-family: 'Telegraf-Regular';
 font-size: .95rem;
 margin:0;
 color: #40424A;
@@ -365,6 +366,9 @@ hr {
 	width:100%;
   }
 
+.brief{
+	padding: 0 30px;
+}
 
 /* -------------------- full-text-sections ----------------------------------------*/
 
@@ -672,6 +676,104 @@ hr {
 .pl_1{
 	padding: 0;
 	padding-left:30px;
+}
+/* mayv pictures */
+
+.mobile-imgs-400 {
+	height: 300;
+	width: auto;
+}
+.mobile-imgs-500 {
+	height: 300;
+	width: auto;
+}
+
+.grid{
+	margin:0  15px;
+}
+.half-grid {
+	/* height: 500px; */
+
+	left: 25px;
+	
+	border-style: solid;
+	border-width: 1px;
+	overflow-x: scroll;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 15px 0;
+	/* padding: 30px; */
+	/* display: flex; */
+
+}
+
+.full-grid {
+	/* height: 500px; */
+	border-style: solid;
+	border-width: 1px;
+	overflow: scroll;
+
+}
+.vert-layout-bottom{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items:center;
+	padding: 20 20 0 20;
+
+}
+.vert-layout{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items:center;
+	padding: 30;
+
+}
+.vert-text-top{
+	/* padding: 24px 50px; */
+	padding: 0 12;
+	padding-bottom: 12px;
+	
+}
+
+.vert-text-bottom{
+	/* padding: 24px 50px; */
+	padding-top: 12px;
+	
+}
+
+.horizontal-layout {
+	display:flex;
+	flex-direction:column;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.horizontal-text-right{
+	padding-top: 12px;
+}
+
+.vert-text-bottom > p  {
+	padding-bottom: 0;
+  }
+
+.vert-text-top > p  {
+	padding-bottom: 0;
+  }
+
+.horizontal-text-left > p {
+	padding-bottom: 0;
+  }
+
+.horizontal-text-right > p {
+	padding-bottom: 0;
+  }
+.horizontal-text-left{
+	padding: 0 24px 0 0 ;
 }
 
 
@@ -999,6 +1101,10 @@ t.project-nav{
 		padding:150px;
 	}
 
+	.brief {
+		padding-left: 55px;
+	}
+
 
 
 	/* -----full-text sections */
@@ -1025,7 +1131,7 @@ t.project-nav{
 		  font-weight: 400;
 		  font-size: 35pt;
 		  line-height:45px;
-		  padding-bottom: 45px;
+		  padding-bottom: 30px;
 
 	
 	  
@@ -1122,7 +1228,78 @@ t.project-nav{
 	ul, ol {
 		padding: 30 0 0 0;
 	}
+	/* pictures */
 
+	.grid{
+		margin:0  100px;
+	}
+	.half-grid {
+		/* height: 500px; */
+		border-style: solid;
+		border-width: 1px;
+		overflow: hidden;
+		padding: 15px;
+		border-radius: 15px;
+		background-color: white;
+		margin: 8px;
+		/* padding: 30px; */
+		/* display: flex; */
+
+	}
+	
+	.full-grid {
+		/* height: 500px; */
+		border-style: solid;
+		border-width: 1px;
+		overflow: hidden;
+
+	}
+	.vert-layout-bottom{
+		display:flex;
+		flex-direction:column;
+		justify-content: space-between;
+		align-items:center;
+		padding: 30 30 0 30;
+
+	}
+	.vert-layout{
+		display:flex;
+		flex-direction:column;
+		justify-content: space-between;
+		align-items:center;
+		padding: 30;
+
+	}
+	.vert-text{
+		padding: 24px 50px;
+		
+	}
+
+	.horizontal-layout {
+		display:flex;
+		flex-direction:row;
+		padding: 30px;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+	.horizontal-text-right{
+		padding: 0 0 0 24px;
+	}
+	.horizontal-text-left{
+		padding: 0 24px 0 0 ;
+	}
+
+	.mobile-imgs-400 {
+		height: 400;
+		width: auto;
+	}
+	.mobile-imgs-500 {
+		height: 500;
+		width: auto;
+	}
+	
 
 
 }
@@ -1132,8 +1309,18 @@ t.project-nav{
 	
  
 
-/*
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
- */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1441px) {
+
+	.grid{
+		margin:0  200px;
+	}
+
+	.overall-spacing{
+		max-width: 40%;
+	}
+
+ }
+
