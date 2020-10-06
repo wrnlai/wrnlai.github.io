@@ -16,8 +16,8 @@ body{
 }
 
 .container-fluid{
-	padding:  0
-	/* max-width: 1280px; */
+	padding:  0 15px;
+	max-width: 1280px;
 	/* scroll-behavior: smooth;  */
 	
 }
@@ -57,31 +57,6 @@ font-weight: 400;
 	font-family: 'iA-regular';
 	src: url(../fonts/iAWriterDuospace-Regular.otf)
 }
-
-
-@font-face {
-	font-family: 'Telegraf-Lite';
-	src: url(../fonts/Telegraf/Telegraf-UltraLight.otf)
-}
-
-@font-face {
-	font-family: 'Telegraf-Regular';
-	src: url(../fonts/Telegraf/Telegraf-Regular.otf)
-}
-
-
-@font-face {
-	font-family: 'Telegraf-Bold';
-	src: url(../fonts/Telegraf/Telegraf-Bold.otf)
-
-}
-
-@font-face {
-	font-family: 'Telegraf-UltraBold';
-	src: url(../fonts/Telegraf/Telegraf-UltraBold.otf)
-
-}
-
 
 
 h1{
@@ -189,9 +164,7 @@ margin-bottom:0;
 
 /* --------------------------------ELEMENT STYLING------------------------  */
 .navbar{
-	padding: .8rem;
-	
-	margin-bottom: 40px;
+	padding: .8rem 0rem;
 }
 
 .circle-button{
@@ -347,6 +320,24 @@ margin-bottom:0;
 
 	/* --------------- text-styling -------------------------------------------- */
 
+@font-face {
+	font-family: 'Suisse-Thin';
+	src: url(../fonts/SuisseIntl-Thin.otf) format("opentype");
+	font-weight: 400;
+	}
+	
+	@font-face {
+	font-family: 'Suisse-Regular';
+	src: url(../fonts/SuisseIntl-Regular.otf) format("opentype");
+	font-weight: 400;
+	}
+	
+	@font-face {
+	font-family: 'Suisse-Medium';
+	src: url(../fonts/SuisseIntl-Medium.otf) format("opentype");
+	font-weight: 400;
+	}
+	
 	
 	
 	h1{
@@ -455,30 +446,29 @@ margin-bottom:0;
 	/* ---------------- Text ---------------------------------------- */
 	
 	  h1{
-		  font-family: 'Telegraf-Regular';
+		  font-family: 'Suisse-Medium';
 		  font-weight: 400;
-		  font-size: 10rem;
+		  font-size: 3.5rem;
           padding-bottom: 0;
-		  line-height: 10rem;
+		  line-height: 5rem;
 		  color:#40424A;
           /* height: 60px; */
 
 	  }
 	  
 	  h2{
-		font-family: 'Telegraf-Regular';
-		/* font-weight: 400; */
-		font-size: 3.5rem;
-		line-height: calc(.9 * 3.5rem);
+		font-family: 'Suisse-Regular';
+		font-weight: 400;
+		font-size: 2.0rem;
+		line-height: 2.2rem;
 		/* margin-bottom:10px; */
 		}
 
 	  
 	  h3{
-		  font-family: 'Telegraf-Regular';
-		  /* font-weight: 100; */
+		  font-family: 'Suisse-Medium';
+		  font-weight: 100;
 		  font-size: 2.5rem;
-		  line-height: calc(.9 * 2.5rem);
 
 	  }
 	
@@ -501,9 +491,8 @@ margin-bottom:0;
 	  }
 	
 	  p{
-		font-family: 'Telegraf-Regular';
-		font-size: 1.5rem;
-		line-height: 1.5rem;
+		font-family: 'Suisse-Regular';
+		font-size: 1rem;
 		margin:0;
 		padding-bottom: 0px;
 	
@@ -700,116 +689,6 @@ margin-bottom:0;
 			border-color: #828282;
 		}
 
-		.blob{
-			border-style: solid;
-			border-width: .5px;
-			border-color: #000000;
-			/* padding: 5px; */
-			/* height:fit-content; */
-		}
-
-		.blob-vert{
-			/* padding: 5px; */
-			border-color: #000000;
-			border-top: solid;
-			border-bottom: solid;
-			border-width:1px;
-			/* border-bottom:solid; */
-			/* padding: 5px; */
-		}
-
-		.blob-vert-top{
-			/* padding: 5px; */
-			border-color: #000000;
-			border-top: solid;
-			border-width:1px;
-			/* border-bottom:solid; */
-			padding: 5px;
-		}
-		.blob-vert-bottom{
-			/* padding: 5px; */
-			border-color: #000000;
-			border-bottom: solid;
-			border-width:1px;
-	
-		}
-
-		.blob-hor-left{
-			/* padding: 5px; */
-			border-color: #000000;
-			border-left: solid;
-			border-width:1px;
-
-		}
-
-		.blob-hor-right{
-			/* padding: 5px; */
-			border-color: #000000;
-			border-right: solid;
-			border-width:1px;
-
-		}
-
-
-		.inner-blob{
-			/* padding: 10px; */
-			border-radius: 24px;
-			display:flex;
-			align-items: center;
-			justify-content: center;
-			padding: 24px;
-			margin-bottom: 10px;
-			/* margin: 5px; */
-		}
-
-
-		.nav-button{
-			border-radius: 50%;
-			width: 30px;
-			height: 30px;
-			/* outline-style: solid; */
-			background-color: #F2F2F2;
-				/* outline-color: grey; */
-			/* background-color: grey; */
-			border-style: solid;
-			border-width: 1px;
-			border-color: #000000;
-			/* box-shadow: 0 0 2px #000000; */
-			transition: background-color .5s;
-			transition-timing-function: ease-in-out;
-		}
-		.nav-icon{
-			padding: 7px;
-			transition: .5s;
-		}
-
-		.nav-button:hover{
-			background-color: #3c3c3c;
-			
-		}
-		.nav-button:hover .nav-icon {
-			filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(269deg) brightness(103%) contrast(102%);
-		
-		}
-
-		.no-padding{
-			padding:0 !important;
-			 
-		}
-		.fit-content{
-			height: fit-content;
-		}
-
-		.thumbnail-text{
-			width: calc(100% - 75px) !important;
-		}
-
-		.thumbnail{
-			/* padding: 10px; */
-			border-radius: 24px;
-			margin: 5px;
-		}
-	
 
 	}
 	
