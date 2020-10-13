@@ -21,7 +21,9 @@ body{
 	/* scroll-behavior: smooth;  */
 	
 }
-
+/* a{
+	display: block;
+} */
 
 a:hover{
 	text-decoration: none;
@@ -450,8 +452,9 @@ b{
 }
 .thumbnail-text{
 	width: calc(100% - 75px) !important;
-	display:flex;
+	
 	align-items:center;
+	display:inline;
 }
 
 #home-description{
@@ -648,7 +651,8 @@ b{
 
 	.thumbnail-text{
 		width: calc(100% - 75px) !important;
-		display:flex;
+		/* display:flex; */
+		display:inline;
 		align-items:center;
 	}
 
@@ -839,7 +843,8 @@ b{
 
 		.thumbnail-text{
 			width: calc(100% - 75px) !important;
-			display:flex;
+			/* display:flex; */
+			display:inline;
 			align-items:center;
 		}
 
