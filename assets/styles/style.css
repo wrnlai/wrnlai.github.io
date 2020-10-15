@@ -849,6 +849,11 @@ hr {
 	padding-bottom: 15px;
 	
 	}
+
+	b{
+		font-family: 'Telegraf-Bold';
+		color: #40424A;
+	}
 	
 	
 	/* .overline {
