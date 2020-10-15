@@ -134,6 +134,8 @@ margin-bottom:0;
 
 }
 
+
+
 b{
 	font-family: 'Telegraf-Bold';
 }
@@ -151,12 +153,31 @@ b{
 	font-family: 'iA-italic';
 	font-weight:400;
 	font-size: .8rem;
-	color: #d4d4d4;
+	/* color: #d4d4d4; */
 	/* letter-spacing: 1; */
 	padding-bottom: .45rem;
 
 	/* color: #ffffff; */
 }
+
+.margin {
+	font-family: 'iA-italic';
+	font-weight:400;
+	font-size: .8rem;
+	color: #d4d4d4;
+}
+
+.caption{
+	font-family: 'iA-italic';
+	font-size: 1.0rem;
+	margin:0;
+	line-height:1.3rem;
+	color:#333333;
+	/* color: #767676; */
+	margin-bottom:0;
+	
+	
+	}
 
 .label{
     font-family: 'iA-italic';
