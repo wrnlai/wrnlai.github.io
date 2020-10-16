@@ -169,9 +169,9 @@ b{
 
 .caption{
 	font-family: 'iA-italic';
-	font-size: 1.0rem;
+	font-size: .9rem;
 	margin:0;
-	line-height:1.3rem;
+	line-height:calc(1.25 * .9rem);
 	color:#333333;
 	/* color: #767676; */
 	margin-bottom:0;
@@ -448,6 +448,9 @@ b{
 	border-right: solid;
 	border-width:1px;
 
+}
+.blob-padding{
+	padding:5px !important;
 }
 
 .blob-hor-right-sm-none {
