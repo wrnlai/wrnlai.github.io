@@ -122,6 +122,8 @@ h3{
 	font-family:'Telegraf-Regular';
 }
 
+
+
 h5{
 	font-family: 'Suisse-Medium';
 	font-size: 1.1rem;
@@ -450,12 +452,12 @@ hr {
 
 
 .button{
-	padding: 6px 16px; 
+	padding: 10px 24px; 
 	margin: 0 8px 8px 0;
 	border-radius:50px;
 	border-style: solid;
-	border-width: 2px;
-	border-color: #40424A;
+	border-width: 1px;
+	border-color: #838383;
 	width: fit-content;
 	transition: all .5s ease;
 
