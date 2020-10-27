@@ -437,7 +437,7 @@ hr {
 
 
 .nav-button:hover{
-	background-color: #3c3c3c;
+	background-color: #40424A;
 	
 }
 .nav-button:hover .nav-icon {
@@ -457,7 +457,7 @@ hr {
 	border-radius:50px;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #838383;
+	border-color: #ffffff;
 	width: fit-content;
 	transition: all .5s ease;
 
@@ -476,7 +476,7 @@ hr {
 }
 
 .button:hover{
-	background-color: #828282;
+	background-color: #40424A;
   
 }
 
@@ -838,7 +838,7 @@ hr {
 	.button h4{
 		font-size: 1.2rem;
 		margin-bottom:0;
-		color: #40424A;
+		color: white;
 		font-family:'Telegraf-Regular';
 	}
 	

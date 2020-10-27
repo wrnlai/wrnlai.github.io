@@ -783,7 +783,7 @@ b{
 	}
 
 	.button:hover{
-		background-color: #828282;
+		background-color: #40424A;
 	  
 	}
 	
@@ -881,7 +881,7 @@ b{
 			/* background-color: grey; */
 			border-style: solid;
 			border-width: 1px;
-			border-color: #838383;
+			border-color: #40424A;
 			/* box-shadow: 0 0 2px #000000; */
 			transition: background-color .5s;
 			transition-timing-function: ease-in-out;
