@@ -153,6 +153,23 @@ b{
 
 }
 
+.pressed p{
+	color: white !important;
+}
+
+.feature-button:hover{
+	background-color: #CC6117 !important;
+
+}
+.feature-button p{
+	color: #40424A;
+}
+
+
+.feature-button:hover p{
+	color: #f2f2f2;
+}
+
 
 .overline {
 	font-family: 'iA-italic';
@@ -457,18 +474,21 @@ hr {
 	border-radius:50px;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #ffffff;
+	border-color: #40424A;
 	width: fit-content;
 	transition: all .5s ease;
 
 
 }
 
+.button#white{
+	border-color: #ffffff;
 
-
-.pressed p{
-	color: #f2f2f2;
 }
+
+
+
+
 
 #mayv.button:hover{
 	background-color: #CC6117;
@@ -838,7 +858,7 @@ hr {
 	.button h4{
 		font-size: 1.2rem;
 		margin-bottom:0;
-		color: white;
+		color: #40424A;
 		font-family:'Telegraf-Regular';
 	}
 	
