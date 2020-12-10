@@ -22,6 +22,7 @@ body{
 	border-style: solid;
 	border-width: 1px;
 	border-top-width: 5px;
+	border-bottom-width:50px;
 	
 
 	/* scroll-behavior: smooth;  */
@@ -757,9 +758,9 @@ b{
 	  h2{
 		font-family: 'Telegraf-Bold';
 		/* font-weight: 400; */
-		font-size: 3.5rem;
-		line-height: calc(.9 * 3.5rem);
-		margin-bottom:15px;
+		font-size: 3.0rem;
+		line-height: calc(.9 * 3.0rem);
+		margin-bottom:10px;
 		}
 
 	  
@@ -892,7 +893,7 @@ b{
 			/* box-shadow: 0 0 2px #000000; */
 			transition: background-color .5s;
 			transition-timing-function: ease-in-out;
-			margin: 0 20px;
+			margin: 0 10px;
 		}
 		.nav-icon{
 			padding: 7px;
