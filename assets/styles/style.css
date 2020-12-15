@@ -189,6 +189,9 @@ b{
 .overline#mayv{
 	color:#CC6117;
 }
+.label#mayv{
+	color:#CC6117;
+}
 
 .overline#ubiq{
 	color: 
@@ -378,7 +381,7 @@ t.project-nav{
 
 hr {
 	border:none;
-	border-top:1px dotted #4F4F4F;
+	border-top:1px solid #4F4F4F;
 	/* color:#fff; */
 	/* background-color:#fff; */
 	height:1px;
@@ -514,7 +517,7 @@ hr {
 	padding:0;
 	transition: .5s ease-out;
 }
-
+/* 
 .footer-project#mayv:hover {
 	background-color: #E5CEAD;
 }
@@ -526,7 +529,7 @@ hr {
 	background-color: lightgrey;
 }
 .footer-project#louvre:hover  {
-	background-color: #799E9C;
+	background-color: #799E9C; */
 
 
 }
@@ -1055,7 +1058,7 @@ t.project-nav{
 
 
 	.navbar{
-		padding: .8rem 55px;
+		padding: .8rem ;
 		position: absolute;
 		z-index: 2;
 	}
