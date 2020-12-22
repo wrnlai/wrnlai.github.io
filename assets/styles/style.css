@@ -189,12 +189,16 @@ b{
 .overline#mayv{
 	color:#CC6117;
 }
+
+.overline#predictev{
+	color: #3e67ead9;
+}
 .label#mayv{
 	color:#CC6117;
 }
 
 .overline#ubiq{
-	color: 
+	color: #5E70B1;
 }
 
 
@@ -279,7 +283,7 @@ t.project-nav{
 /* ------------------------------Intro-Writeup Styling ------------------------------------------------------------ */
 
 .title-slide{
-	height: 100%;
+	/* height: 100%; */
 	
 	/* display: flex; */
 	
@@ -305,19 +309,26 @@ t.project-nav{
 
 	
 }
-.title-slide#ubiq{ 
-	background-color: #535C7A;
+
+.title-slide#ubiq{
+	background-image: linear-gradient(45deg, #93a4e6, #adeaadf5);
+
 }
+
 .title-slide#mayv{ 
-	background-color: #E5CEAD;
+	/* background-color: #E5CEAD; */
+	background-image: linear-gradient(45deg, rgba(179, 215, 255, 0.9), rgb(241 182 139 / 80%), rgb(229, 206, 173));
+
 }
 
 
 .title-slide#louvre{
 	background-color: #799E9C;
+	background-image:linear-gradient(45deg, #c7dbb9, transparent);
 }
 .title-slide#predictev{
 	background-color: lightgrey;
+	background-image: linear-gradient(45deg, #6c55c580, #3e67ead9);
 }
 
 /* #louvre{
@@ -326,36 +337,45 @@ t.project-nav{
 } */
 
 .title-card{
-	height:fit-content;
-	/* border-radius: 10px; */
-	padding: 36px 40px;
+	/* height:fit-content; */
+	/* padding: 36px 40px; */
 	color: white;
 	margin-top:15px;
 	background-color: #F2F2F2;
-	border-bottom: 1px solid #40424A;
+	border-top:  1px solid #4F4F4F;
+	/* border-left: 1px solid #4F4F4F;
+	border-right: 1px solid #4F4F4F; */
+
 
 }
+.title-descrip{
+	/* border-right: 1px solid #40424A; */
+	padding: 25;
+	border-bottom: 1px solid #4F4F4F;
+
+}
+
+
 
 .title-img{
 	margin-bottom:20px;
+	height: 75vh;
+	justify-content: center;
 	/* background-color: #535C7A; */
 } 
 
-.title-img#ubiq{
-	background-color: #535C7A;
-}
+
 
 .title-img#mayv{
 	margin-bottom:20px;
-	background-color: #E5CEAD;
+	/* background-color: #E5CEAD; */
+	/* background-image: linear-gradient(45deg, rgba(179, 215, 255, 0.9), rgb(241 182 139 / 80%), rgb(229, 206, 173)); */
+
 } 
 
-.title-img#predictev{
-	background-color: lightgrey;
-}
+
 
 .title-img#louvre{
-	background-color: #799E9C;
 }
 
 .title-img#archive{
@@ -370,9 +390,7 @@ t.project-nav{
 
 }
 
-#ubiq.title-slide{
-	background-color: #535C7A;
-}
+
 
 
 .hero{
@@ -903,13 +921,7 @@ hr {
 		/* color: #ffffff; */
 	}
 
-	.overline#louvre{
-		color: #219653
-	}
 
-	.overline#ubiq{
-		color: #5E70B1;
-	}
 	  
 	.label{
 		
@@ -958,21 +970,36 @@ t.project-nav{
 
 .title-slide{
 	height: 100%;
+	border: 1px solid #40424A;
 	/* display: flex; */
 	
 }
 
 .title-card{
-	height:fit-content;
+	/* height:fit-content; */
 	/* border-radius: 10px; */
-	padding: 80px 80px;
-	color: white;
+	padding: 0;
+	/* color: white; */
 	margin-top:15px;
+	border-top: 1px solid #40424A;
+	/* border-bottom: 1px solid #40424A; */
+	
+}
+
+.title-descrip{
+	/* border-right: 1px solid #40424A; */
+	padding: 25;
+	border-bottom: none;
+}
+#left.title-descrip{
+	border-right: 1px solid #40424A;
 }
 
 .title-img{
 	margin-bottom:20px;
 	padding: 75px;
+	height: auto;
+	/* border: 1px solid #40424A; */
 	/* background-color: #535C7A; */
 	
 } 
@@ -1065,8 +1092,9 @@ t.project-nav{
 
 	/* -----------Intro-Writeup Styling ---------------------------------------------------------------------------------------- */
 	.title-slide{
-		width: 100%
-		height: 100vh;
+		width: 100%;
+		height: 100%;
+		margin-bottom: 120px;
 		/* display: flex; */
 		align-items: center;
 		border-bottom: solid;
@@ -1079,14 +1107,19 @@ t.project-nav{
 	}
 
 	.title-card{
-		height:fit-content;
-		border-radius: 0px;
-		padding:  55px;
-    	color: white;
+		/* height:fit-content; */
+		padding:  0px;
 		margin-top: 0;
-		/* height: 100%; */
-		border-bottom: none;
+		border-top:none;
+
 	}
+
+	.title-descrip{
+		border-top: 1px solid #40424A;
+		border-bottom: none;
+		padding: 25 50 25 25;
+	}
+
 
 	.feature-panel{
 		height:fit-content;
@@ -1116,6 +1149,7 @@ t.project-nav{
 		margin-bottom:0;
 		padding: 15px;
 		height: 100%;
+		border-left: 1px solid #40424A;
 	} 
 
 	.feature-display{
@@ -1127,8 +1161,23 @@ t.project-nav{
 		/* height: 100%; */
 	}
 
+	#ubiq.title-img{
+		background-image: linear-gradient(45deg, #93a4e6, #adeaadf5);
+
+	}
+
 	#mayv.title-img{
-		padding:150px;
+		padding:50px;
+		background-image: linear-gradient(45deg, rgba(179, 215, 255, 0.9), rgb(241 182 139 / 80%), rgb(229, 206, 173));
+	}
+
+	#predictev.title-img{
+		background-image: linear-gradient(45deg, #6c55c580, #3e67ead9);
+	}
+	#louvre.title-img{
+		background-color: #799E9C;
+
+		background-image:linear-gradient(45deg, #c7dbb9, transparent);
 	}
 
 	.brief {
